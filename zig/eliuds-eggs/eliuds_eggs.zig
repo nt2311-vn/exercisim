@@ -1,4 +1,5 @@
+const std = @import("std");
+
 pub fn eggCount(number: usize) usize {
-    _ = number;
-    @compileError("please implement the eggCount function");
+    return @popCount(number);
 }
