@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BottleSongTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-12-27T06:39:33" hostname="D01-ACLT-100607" time="0.048">
+  <properties/>
+  <testcase name="lastThreeVerses" classname="BottleSongTest" time="0.046"/>
+  <testcase name="lastGenericVerse" classname="BottleSongTest" time="0.0"/>
+  <testcase name="allVerses" classname="BottleSongTest" time="0.0"/>
+  <testcase name="verseWithOneBottle" classname="BottleSongTest" time="0.0"/>
+  <testcase name="verseWithTwoBottles" classname="BottleSongTest" time="0.0"/>
+  <testcase name="firstGenericVerse" classname="BottleSongTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

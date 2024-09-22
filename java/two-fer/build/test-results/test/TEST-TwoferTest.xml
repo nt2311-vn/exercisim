@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TwoferTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-12-27T07:16:57" hostname="D01-ACLT-100607" time="0.048">
+  <properties/>
+  <testcase name="noNameGiven" classname="TwoferTest" time="0.041"/>
+  <testcase name="aNameGiven" classname="TwoferTest" time="0.004"/>
+  <testcase name="anotherNameGiven" classname="TwoferTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

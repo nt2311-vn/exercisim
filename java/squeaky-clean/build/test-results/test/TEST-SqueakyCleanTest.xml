@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SqueakyCleanTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-12-27T07:39:28" hostname="D01-ACLT-100607" time="0.073">
+  <properties/>
+  <testcase name="The clean method removes all characters that are not letters" classname="SqueakyCleanTest" time="0.051"/>
+  <testcase name="The clean method removes all lowercase greek letters" classname="SqueakyCleanTest" time="0.001"/>
+  <testcase name="The clean method replaces whitespaces with underscores in the middle of the string" classname="SqueakyCleanTest" time="0.0"/>
+  <testcase name="The clean method returns the same string when invoked on a string of three letters" classname="SqueakyCleanTest" time="0.001"/>
+  <testcase name="The clean method returns a string in camel case after removing a dash and a number" classname="SqueakyCleanTest" time="0.005"/>
+  <testcase name="The clean method returns an empty string when invoked on a string with no letters" classname="SqueakyCleanTest" time="0.001"/>
+  <testcase name="The clean method replaces control characters with CTRL" classname="SqueakyCleanTest" time="0.001"/>
+  <testcase name="The clean method returns empty string when invoked on empty string" classname="SqueakyCleanTest" time="0.001"/>
+  <testcase name="The clean method replaces leading and trailing whitespaces with underscores" classname="SqueakyCleanTest" time="0.0"/>
+  <testcase name="The clean method returns the correct result after performing a few cleaning operations" classname="SqueakyCleanTest" time="0.001"/>
+  <testcase name="The clean method converts kebab to camel case after removing a dash" classname="SqueakyCleanTest" time="0.0"/>
+  <testcase name="The clean method returns the same string when invoked on a single letter string" classname="SqueakyCleanTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
