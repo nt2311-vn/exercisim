@@ -1,13 +1,18 @@
 const std = @import("std");
 const math = @import("std").math;
 pub fn isArmstrongNumber(num: u128) bool {
-    var buffer: [64]u8 = undefined;
-    const str = std.fmt.bufPrint(&buffer, "{d}", .{num}) catch unreachable;
-    var sum: u128 = 0;
+    var digit: u128 = 0;
+    var remain_num: u128 = num;
+    while (remain_num > 0) {
+        digit += 1;
+        remain_num /= 10;
+    }
 
-    for (str) |c| {
-        const digit = c - '0';
-        sum += math.powi(u128, digit, str.len) catch unreachable;
+    var sum: u128 = 0;
+    remain_num = num;
+    while (remain_num > 0) {
+        sum += math.pow(u128, remain_num % 10, digit);
+        remain_num /= 10;
     }
 
     return sum == num;
