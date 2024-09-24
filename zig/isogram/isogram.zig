@@ -14,3 +14,22 @@ pub fn isIsogram(str: []const u8) bool {
 
     return set.count() == str.len - count_not_alpha;
 }
+
+// pub fn isIsogram(str: []const u8) bool {
+//     var seen = [_]bool{false} ** 26;
+//
+//     for (str) |c| {
+//         if (std.ascii.isAlphabetic(c)) {
+//             const lower = std.ascii.toLower(c);
+//             seen[lower - 'a'] = true;
+//         }
+//     }
+//
+//     for (seen) |is_seen| {
+//         if (!is_seen) {
+//             return false;
+//         }
+//     }
+//
+//     return true;
+// }
