@@ -22,18 +22,37 @@ pub fn detectAnagrams(
             continue :outer;
         }
 
-        var count_freq = [_]i8{0} ** 26;
+        // var count_freq = [_]i8{0} ** 26;
+        // for (word) |c| {
+        //     const index = toLower(c) - 'a';
+        //     count_freq[index] += 1;
+        // }
+        //
+        // for (candidate) |c| {
+        //     const index = toLower(c) - 'a';
+        //     count_freq[index] -= 1;
+        //     if (count_freq[index] < 0) {
+        //         continue :outer;
+        //     }
+        // }
+
+        // Using backward iterator in second time will beteter results
+        var count_freq = [1]i8{0} ** 26;
         for (word) |c| {
             const index = toLower(c) - 'a';
             count_freq[index] += 1;
         }
 
-        for (candidate) |c| {
-            const index = toLower(c) - 'a';
+        var i: usize = candidate.len - 1;
+        while (true) {
+            const index = toLower(candidate[i]) - 'a';
             count_freq[index] -= 1;
             if (count_freq[index] < 0) {
                 continue :outer;
             }
+
+            if (i == 0) break;
+            i -= 1;
         }
 
         try results.insert(candidate);
