@@ -14,15 +14,15 @@ pub fn classify(n: u64) Classification {
         }
     }
 
-    // if (sum == n) {
-    //     return Classification.perfect;
-    // }
-    //
-    // return if (sum > n) Classification.abundant else Classification.deficient;
-
-    if (n == sum) {
+    if (sum == n) {
         return Classification.perfect;
     }
 
-    return if (n > sum) Classification.deficient else Classification.abundant;
+    return if (sum > n) Classification.abundant else Classification.deficient;
+
+    // if (n == sum) {
+    //     return Classification.perfect;
+    // }
+    //
+    // return if (n > sum) Classification.deficient else Classification.abundant;
 }
