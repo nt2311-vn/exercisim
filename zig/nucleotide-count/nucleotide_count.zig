@@ -10,6 +10,7 @@ pub const Counts = struct {
 
 pub fn countNucleotides(s: []const u8) NucleotideError!Counts {
     var count = Counts{ .a = 0, .c = 0, .g = 0, .t = 0 };
+
     for (s) |nuc| {
         switch (nuc) {
             'A' => count.a += 1,
