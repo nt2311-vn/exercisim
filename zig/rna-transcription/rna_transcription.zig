@@ -7,13 +7,13 @@ pub fn toRna(allocator: mem.Allocator, dna: []const u8) mem.Allocator.Error![]co
     errdefer allocator.free(rna);
 
     for (dna, 0..) |nuc, i| {
-        switch (nuc) {
-            'A' => rna[i] = 'U',
-            'G' => rna[i] = 'C',
-            'C' => rna[i] = 'G',
-            'T' => rna[i] = 'A',
-            else => {},
-        }
+        rna[i] = switch (nuc) {
+            'A' => 'U',
+            'G' => 'C',
+            'C' => 'G',
+            'T' => 'A',
+            else => unreachable,
+        };
     }
 
     return rna;
