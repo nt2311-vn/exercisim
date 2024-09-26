@@ -1,29 +1,32 @@
 const std = @import("std");
 const EnumSet = std.EnumSet;
 
-pub const Allergen = enum(u8) {
-    eggs = 1,
-    peanuts = 2,
-    shellfish = 4,
-    strawberries = 8,
-    tomatoes = 16,
-    chocolate = 32,
-    pollen = 64,
-    cats = 128,
+pub const Allergen = enum {
+    eggs,
+    peanuts,
+    shellfish,
+    strawberries,
+    tomatoes,
+    chocolate,
+    pollen,
+    cats,
 };
 
 pub fn isAllergicTo(score: usize, allergen: Allergen) bool {
-    return @intFromEnum(allergen) & score != 0;
+    const allergicSet = initAllergenSet(score);
+    return allergicSet.contains(allergen);
 }
 
 pub fn initAllergenSet(score: usize) EnumSet(Allergen) {
-    var allergens = EnumSet(Allergen).initFull();
-    var allergenIter = allergens.iterator();
+    var sets: [8]Allergen = undefined;
+    var i: usize = 0;
 
-    while (allergenIter.next()) |allergen| {
-        const isAllergic = isAllergicTo(score, allergen);
-        allergens.setPresent(allergen, isAllergic);
+    for (0..8) |index| {
+        if ((score & std.math.shl(u8, 1, index)) != 0) {
+            sets[i] = @enumFromInt(index);
+            i += 1;
+        }
     }
 
-    return allergens;
+    return EnumSet(Allergen).initMany(sets[0..i]);
 }
