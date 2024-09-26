@@ -34,14 +34,9 @@ pub const Character = struct {
     hitpoints: i8,
 
     pub fn init() Character {
-        const strength = ability();
-        const dexterity = ability();
         const constitution = ability();
-        const intelligence = ability();
-        const wisdom = ability();
-        const charisma = ability();
         const hitpoints = 10 + modifier(constitution);
 
-        return Character{ .strength = strength, .dexterity = dexterity, .constitution = constitution, .intelligence = intelligence, .wisdom = wisdom, .charisma = charisma, .hitpoints = hitpoints };
+        return Character{ .strength = ability(), .dexterity = ability(), .constitution = constitution, .intelligence = ability(), .wisdom = ability(), .charisma = ability(), .hitpoints = hitpoints };
     }
 };
