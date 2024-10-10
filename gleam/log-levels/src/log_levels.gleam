@@ -1,17 +1,20 @@
-import gleam/list
 import gleam/string
 
 pub fn message(log_line: String) -> String {
-  case list.last(string.split(log_line, ":")) {
-    Error(Nil) -> ""
-    Ok(str) -> string.trim(str)
+  case log_line {
+    "[ERROR]:" <> msg -> msg
+    "[WARNING]:" <> msg -> msg
+    "[INFO]:" <> msg -> msg
+    _ -> log_line
   }
+  |> string.trim
 }
 
 pub fn log_level(log_line: String) -> String {
-  case list.first(string.split(log_line, "]")) {
-    Error(Nil) -> ""
-    Ok(str) -> string.lowercase(string.replace(str, "[", ""))
+  case log_line {
+    "[ERROR]" <> _ -> "error"
+    "[WARNING]" <> _ -> "warning"
+    _ -> "info"
   }
 }
 
