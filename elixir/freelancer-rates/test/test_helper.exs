@@ -1,2 +1,2 @@
 ExUnit.start()
-ExUnit.configure(exclude: :pending, trace: true, seed: 0)
+ExUnit.configure(exclude: false, trace: true, seed: 0)
