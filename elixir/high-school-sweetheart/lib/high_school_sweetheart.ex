@@ -9,8 +9,9 @@ defmodule HighSchoolSweetheart do
   end
 
   def initials(full_name) do
-    [first, last] = String.split(full_name, " ")
-    "#{initial(first)} #{initial(last)}"
+    # [first, last] = String.split(full_name, " ")
+    # "#{initial(first)} #{initial(last)}"
+    String.split(full_name, " ") |> Enum.map(&initial/1) |> Enum.join(" ")
   end
 
   def pair(full_name1, full_name2) do
