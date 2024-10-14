@@ -6,6 +6,6 @@ defmodule EliudsEggs do
   def egg_count(number) do
     number
     |> Integer.digits(2)
-    |> Enum.count(fn x -> x == 1 end)
+    |> Enum.sum()
   end
 end
