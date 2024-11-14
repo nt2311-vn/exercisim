@@ -2,7 +2,7 @@
 #include "stdio.h"
 #include <string.h>
 
-char *convert(char result[], int drops) {
+void convert(char result[], int drops) {
   strcpy(result, "");
   if (drops % 3 == 0) {
     strcat(result, "Pling");
@@ -20,5 +20,5 @@ char *convert(char result[], int drops) {
     sprintf(result, "%d", drops);
   }
 
-  return result;
+  puts(result);
 }
