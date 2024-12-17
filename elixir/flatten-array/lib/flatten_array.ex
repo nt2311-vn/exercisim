@@ -13,7 +13,13 @@ defmodule FlattenArray do
   """
 
   @spec flatten(list) :: list
-  def flatten(list) do
-    List.flatten(list) |> Enum.reject(&is_nil/1)
+  def flatten([]), do: []
+  def flatten([nil | t]), do: flatten(t)
+
+  def flatten([a | t]) do
+    cond do
+      is_list(a) -> flatten(a) ++ flatten(t)
+      true -> [a | flatten(t)]
+    end
   end
 end
