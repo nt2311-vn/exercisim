@@ -84,15 +84,9 @@ defmodule RationalNumbers do
     {a1, a2} = a
     gcd = Integer.gcd(a1, a2)
 
-    {simplified_num, simplified_den} =
-      cond do
-        a2 < 0 ->
-          {-div(a1, gcd), -div(a2, gcd)}
-
-        true ->
-          {div(a1, gcd), div(a2, gcd)}
-      end
-
-    {simplified_num, simplified_den}
+    cond do
+      a2 < 0 -> {-a1 / gcd, -a2 / gcd}
+      true -> {a1 / gcd, a2 / gcd}
+    end
   end
 end
