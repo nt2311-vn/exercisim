@@ -16,17 +16,17 @@ defmodule Sublist do
         if a === b, do: :equal, else: :unequal
 
       len_compare > 0 ->
-        if is_sublist?(b, a), do: :superlist, else: :unequal
+        if sublist?(b, a), do: :superlist, else: :unequal
 
       len_compare < 0 ->
-        if is_sublist?(a, b), do: :sublist, else: :unequal
+        if sublist?(a, b), do: :sublist, else: :unequal
     end
   end
 
-  @spec is_sublist?(list, list) :: boolean
-  defp is_sublist?([], _), do: true
+  @spec sublist?(list, list) :: boolean
+  defp sublist?([], _), do: true
 
-  defp is_sublist?(shorter, longer) do
+  defp sublist?(shorter, longer) do
     Enum.any?(0..(length(longer) - length(shorter)), fn start ->
       Enum.slice(longer, start, length(shorter)) === shorter
     end)
