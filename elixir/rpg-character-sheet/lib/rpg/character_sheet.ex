@@ -20,8 +20,8 @@ defmodule RPG.CharacterSheet do
     name = ask_name()
     class = ask_class()
     level = ask_level()
+    player = %{name: name, level: level, class: class}
 
-    IO.puts("Your character: " <> inspect(%{name: name, level: level, class: class}))
-    %{name: name, level: level, class: class}
+    IO.inspect(player, label: "Your character")
   end
 end
