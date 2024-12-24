@@ -2,18 +2,21 @@ defmodule BoutiqueInventory do
   def sort_by_price([]), do: []
 
   def sort_by_price(inventory) do
-    inventory |> Enum.sort(fn %{price: x}, %{price: y} -> x <= y end)
+    inventory |> Enum.sort(fn x, y -> x[:price] <= y[:price] end)
   end
 
   def with_missing_price([]), do: []
 
   def with_missing_price(inventory) do
-    inventory |> Enum.filter(fn %{price: x} -> x == nil end)
+    inventory |> Enum.filter(fn x -> x[:price] == nil end)
   end
 
   def update_names([], _, _), do: []
 
   def update_names(inventory, old_word, new_word) do
+    Enum.map(inventory, fn item ->
+      %{item | name: String.replace(item[:name], old_word, new_word)}
+    end)
   end
 
   def increase_quantity(item, count) do
