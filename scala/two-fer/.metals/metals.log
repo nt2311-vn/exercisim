@@ -430,3 +430,20 @@ INFO: JBoss Threads version 3.1.0.Final
 Dec 24, 2024 11:49:06 PM io.undertow.Undertow stop
 INFO: stopping server: Undertow - 2.2.20.Final
 2024.12.24 23:49:10 INFO  Started: Metals version 1.4.1 in folders '/home/nt2311/Projects/exercisim/scala/two-fer' for client Neovim 0.10.2+v0.10.2.[0m
+2024.12.24 23:49:10 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.[0m
+2024.12.24 23:49:11 INFO  skipping build import with status 'Dismissed'[0m
+2024.12.24 23:49:11 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/two-fer/src/main/scala/Twofer.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.24 23:49:12 INFO  Selected port 5031[0m
+Dec 24, 2024 11:49:12 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.20.Final
+Dec 24, 2024 11:49:12 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.16.Final
+Dec 24, 2024 11:49:12 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.16.Final
+Dec 24, 2024 11:49:12 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2024.12.24 23:49:12 INFO  Started Metals http server at http://127.0.0.1:5031[0m
+2024.12.24 23:49:27 INFO  Shutting down server[0m
+2024.12.24 23:49:27 INFO  shutting down Metals[0m
+Dec 24, 2024 11:49:27 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.20.Final
