@@ -1,0 +1,28 @@
+{
+  "authors": [
+    "ricemery"
+  ],
+  "contributors": [
+    "ErikSchierboom",
+    "kytrinyx",
+    "ppartarr",
+    "rajeshpg"
+  ],
+  "files": {
+    "solution": [
+      "src/main/scala/Triangle.scala"
+    ],
+    "test": [
+      "src/test/scala/TriangleTest.scala"
+    ],
+    "example": [
+      ".meta/Example.scala"
+    ],
+    "invalidator": [
+      "build.sbt"
+    ]
+  },
+  "blurb": "Determine if a triangle is equilateral, isosceles, or scalene.",
+  "source": "The Ruby Koans triangle project, parts 1 & 2",
+  "source_url": "https://web.archive.org/web/20220831105330/http://rubykoans.com"
+}

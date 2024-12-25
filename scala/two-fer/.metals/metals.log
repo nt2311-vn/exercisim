@@ -628,3 +628,75 @@ INFO: JBoss Threads version 3.1.0.Final
 2024.12.25 21:31:48 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/two-fer/src/main/scala/Twofer.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
 2024.12.25 21:31:50 WARN  no build target for: /home/nt2311/Projects/exercisim/scala/two-fer/src/main/scala/Twofer.scala[0m
 2024.12.25 21:31:50 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/two-fer/src/main/scala/Twofer.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:33:30 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/two-fer/src/main/scala/Twofer.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:33:32 INFO  Shutting down server[0m
+2024.12.25 21:33:32 INFO  shutting down Metals[0m
+Dec 25, 2024 9:33:32 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.20.Final
+2024.12.25 21:33:36 INFO  Started: Metals version 1.4.1 in folders '/home/nt2311/Projects/exercisim/scala/two-fer' for client Neovim 0.10.3+v0.10.3.[0m
+2024.12.25 21:33:36 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.[0m
+2024.12.25 21:33:36 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/two-fer/src/main/scala/Twofer.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:33:37 INFO  skipping build import with status 'Dismissed'[0m
+2024.12.25 21:33:37 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/two-fer/src/main/scala/Twofer.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:33:38 INFO  Selected port 5032[0m
+Dec 25, 2024 9:33:38 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.20.Final
+Dec 25, 2024 9:33:38 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.16.Final
+Dec 25, 2024 9:33:38 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.16.Final
+Dec 25, 2024 9:33:39 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2024.12.25 21:33:38 INFO  Started Metals http server at http://127.0.0.1:5032[0m
+2024.12.25 21:33:48 INFO  logging to files /home/nt2311/Projects/exercisim/scala/two-fer/.metals/metals.log,/home/nt2311/Projects/exercisim/scala/triangle/.metals/metals.log[0m
+2024.12.25 21:33:48 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.[0m
+2024.12.25 21:33:52 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:04 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/test/scala/TriangleTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:13 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/test/scala/TriangleTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:23 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/test/scala/TriangleTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:32 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:33 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:33 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:33 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:33 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:33 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:34 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:34 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:34 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:34 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:34 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:35 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:35 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:35 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:35 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:36 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:36 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:36 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:36 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:37 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:37 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:37 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:37 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:37 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:37 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:37 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:39 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:39 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:39 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:39 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:40 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:40 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:40 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:40 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:40 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:40 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:41 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:41 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:52 WARN  no build target for: /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala[0m
+2024.12.25 21:34:52 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:53 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/main/scala/Triangle.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:34:53 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/triangle/src/test/scala/TriangleTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.25 21:35:01 INFO  Shutting down server[0m
+2024.12.25 21:35:01 INFO  shutting down Metals[0m
+Dec 25, 2024 9:35:01 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.20.Final
