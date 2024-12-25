@@ -1,12 +1,32 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E171] Type Error: /home/nt2311/Projects/exercisim/scala/two-fer/src/test/scala/TwoferTest.scala:9:17 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m9 |[0m    Twofer.twofer() should be ([31m"One for you, one for me."[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m    ^^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m  |[0mmissing argument for parameter name of [33mmethod[0m [35mtwofer[0m in [33mobject[0m [35mTwofer[0m: (name: String): String[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /home/nt2311/Projects/exercisim/scala/two-fer/src/test/scala/TwoferTest.scala:9:20 [0m[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m9 |[0m    Twofer.twofer() should be ([31m"One for you, one for me."[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/nt2311/Projects/exercisim/scala/two-fer/src/test/scala/TwoferTest.scala:8:11 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m    Twofer.twofer() should be([31m"One for you, one for me."[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m    ^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mvalue twofer is not a member of object Twofer - did you mean Twofer.twoFer?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/nt2311/Projects/exercisim/scala/two-fer/src/test/scala/TwoferTest.scala:13:11 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m13 |[0m    Twofer.twofer([31m"Alice"[0m) should be([31m"One for Alice, one for me."[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue twofer is not a member of object Twofer - did you mean Twofer.twoFer?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/nt2311/Projects/exercisim/scala/two-fer/src/test/scala/TwoferTest.scala:18:11 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m18 |[0m    Twofer.twofer([31m"Bob"[0m) should be([31m"One for Bob, one for me."[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue twofer is not a member of object Twofer - did you mean Twofer.twoFer?[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /home/nt2311/Projects/exercisim/scala/two-fer/src/test/scala/TwoferTest.scala:8:20 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m8 |[0m    Twofer.twofer() should be([31m"One for you, one for me."[0m)[0m
 [0m[[0m[33mwarn[0m] [0m[0m[33m[33m  |[0m                    ^^^^^^[0m[0m
 [0m[[0m[33mwarn[0m] [0m[0m[33m  |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
 [0m[[0m[33mwarn[0m] [0m[0m[33m  |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
 [0m[[0m[33mwarn[0m] [0m[0m[33m  |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /home/nt2311/Projects/exercisim/scala/two-fer/src/test/scala/TwoferTest.scala:13:27 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m13 |[0m    Twofer.twofer([31m"Alice"[0m) should be([31m"One for Alice, one for me."[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                           ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /home/nt2311/Projects/exercisim/scala/two-fer/src/test/scala/TwoferTest.scala:18:25 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m18 |[0m    Twofer.twofer([31m"Bob"[0m) should be([31m"One for Bob, one for me."[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                         ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
