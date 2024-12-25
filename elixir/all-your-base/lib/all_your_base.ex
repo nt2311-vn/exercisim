@@ -14,8 +14,7 @@ defmodule AllYourBase do
     if Enum.any?(digits, fn x -> x < 0 || x >= input_base end) do
       {:error, "all digits must be >= 0 and < input base"}
     else
-      output_digit = digits_to_integer(digits, input_base) |> integer_to_digits(output_base, [])
-      {:ok, output_digit}
+      {:ok, digits_to_integer(digits, input_base) |> integer_to_digits(output_base, [])}
     end
   end
 
