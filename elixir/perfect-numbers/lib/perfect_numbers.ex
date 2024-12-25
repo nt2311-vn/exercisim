@@ -15,16 +15,20 @@ defmodule PerfectNumbers do
 
   def classify(1), do: {:ok, :deficient}
   def classify(2), do: {:ok, :deficient}
-  def classify(number), do: sum_factors(number)
+
+  def classify(number) do
+    sum = sum_factors(number)
+
+    cond do
+      sum == number -> {:ok, :perfect}
+      sum > number -> {:ok, :abundant}
+      true -> {:ok, :deficient}
+    end
+  end
 
   @spec sum_factors(n :: integer) :: {:ok, atom}
   defp sum_factors(n) do
     half = div(n, 2)
     sum = 2..half |> Enum.reduce(1, fn x, acc -> if rem(n, x) == 0, do: acc + x, else: acc end)
-
-    cond do
-      sum == n -> {:ok, :perfect}
-      true -> if sum > n, do: {:ok, :abundant}, else: {:ok, :deficient}
-    end
   end
 end
