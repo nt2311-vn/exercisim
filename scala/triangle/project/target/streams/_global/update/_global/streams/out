@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = true, force = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mUpdating ProjectRef(uri("file:/D:/Work/Project/Exercism/scala/triangle/project/"), "triangle-build")...[0m
+[0m[[0m[0minfo[0m] [0m[0mUpdating triangle-build[0m
+[0m[[0m[0minfo[0m] [0m[0mResolved triangle-build dependencies[0m
+[0m[[0m[0minfo[0m] [0m[0mFetching artifacts of triangle-build[0m
+[0m[[0m[0minfo[0m] [0m[0mFetched artifacts of triangle-build[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone updating ProjectRef(uri("file:/D:/Work/Project/Exercism/scala/triangle/project/"), "triangle-build")[0m
