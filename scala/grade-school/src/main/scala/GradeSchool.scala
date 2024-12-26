@@ -2,10 +2,16 @@ class School:
   type DB = Map[Int, Seq[String]]
   private var database: DB = Map.empty
 
-  def add(name: String, g: Int) = ???
+  def add(name: String, g: Int) =
+    database = database.updated(g, database.getOrElse(g, Seq()) :+ name)
 
   def db: DB = database
 
-  def grade(g: Int): Seq[String] = ???
+  def grade(g: Int): Seq[String] =
+    database.getOrElse(g, Seq())
 
-  def sorted: DB = ???
+  def sorted: DB =
+    database.toSeq
+      .sortBy(_._1)
+      .map { case (g, names) => g -> names.sorted }
+      .toMap
