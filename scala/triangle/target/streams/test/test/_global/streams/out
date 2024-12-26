@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TriangleTest, org.scalatest.tools.Framework$$anon$1@2a67d060, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TriangleTest, org.scalatest.tools.Framework$$anon$1@54788959, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mTriangleTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- equilateral - true if all sides are equal[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- equilateral - false if any side is unequal[0m[0m
@@ -17,7 +17,7 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- scalene - false if two sides are equal[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- scalene - Sides that violate triangle inequality are not scalene, even if they are all different[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- scalene - sides may be floats[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 345 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 262 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 17[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 17, failed 0, canceled 0, ignored 0, pending 0[0m[0m
