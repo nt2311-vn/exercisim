@@ -583,3 +583,55 @@ SEVERE: A severe compiler error occurred, full details of the error can be found
 2024.12.26 17:18:15 INFO  time: compiled Exercism_9e528805c5 in 89ms[0m
 2024.12.26 17:18:16 INFO  compiling exercism_9e528805c5 (3 scala sources and 11 java sources)[0m
 2024.12.26 17:18:16 INFO  time: compiled Exercism_9e528805c5 in 82ms[0m
+Dec 26, 2024 5:20:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Work\Project\Exercism\.metals\.reports\metals-full\2024-12-26\r_compiler-error_(Exercism_9e528805c5)_17-20-22-952.md
+Dec 26, 2024 5:20:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Work\Project\Exercism\.metals\.reports\metals-full\2024-12-26\r_compiler-error_(Exercism_9e528805c5)_17-20-23-163.md
+Dec 26, 2024 5:20:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Work\Project\Exercism\.metals\.reports\metals-full\2024-12-26\r_compiler-error_(Exercism_9e528805c5)_17-20-23-307.md
+Dec 26, 2024 5:20:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Work\Project\Exercism\.metals\.reports\metals-full\2024-12-26\r_compiler-error_(Exercism_9e528805c5)_17-20-23-541.md
+Dec 26, 2024 5:20:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Work\Project\Exercism\.metals\.reports\metals-full\2024-12-26\r_compiler-error_(Exercism_9e528805c5)_17-20-23-696.md
+2024.12.26 17:21:09 INFO  compiling exercism_9e528805c5 (3 scala sources and 11 java sources)[0m
+2024.12.26 17:21:09 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 26m 16.314s)[0m
+2024.12.26 17:21:09 INFO  compiling exercism_9e528805c5 (3 scala sources and 11 java sources)[0m
+2024.12.26 17:21:09 INFO  time: compiled Exercism_9e528805c5 in 26ms[0m
+2024.12.26 17:21:09 INFO  compiling exercism_9e528805c5 (3 scala sources and 11 java sources)[0m
+2024.12.26 17:21:09 INFO  time: compiled Exercism_9e528805c5 in 0.12s[0m
+2024.12.26 17:21:09 INFO  compiling exercism_9e528805c5 (3 scala sources and 11 java sources)[0m
+2024.12.26 17:21:10 INFO  time: compiled Exercism_9e528805c5 in 0.13s[0m
+2024.12.26 17:21:10 INFO  compiling exercism_9e528805c5 (3 scala sources and 11 java sources)[0m
+2024.12.26 17:21:10 INFO  time: compiled Exercism_9e528805c5 in 78ms[0m
+2024.12.26 17:21:11 INFO  compiling exercism_9e528805c5 (3 scala sources and 11 java sources)[0m
+2024.12.26 17:21:11 INFO  time: compiled Exercism_9e528805c5 in 66ms[0m
+2024.12.26 17:21:52 INFO  compiling exercism_9e528805c5 (3 scala sources and 11 java sources)[0m
+2024.12.26 17:21:52 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 26m 59.483s)[0m
+2024.12.26 17:21:52 INFO  compiling exercism_9e528805c5 (3 scala sources and 11 java sources)[0m
+2024.12.26 17:21:52 INFO  time: compiled Exercism_9e528805c5 in 74ms[0m
+2024.12.26 17:21:52 INFO  compiling exercism_9e528805c5 (3 scala sources and 11 java sources)[0m
+2024.12.26 17:21:52 INFO  time: compiled Exercism_9e528805c5 in 0.1s[0m
+2024.12.26 17:21:54 INFO  compiling exercism_9e528805c5 (3 scala sources and 11 java sources)[0m
+2024.12.26 17:21:54 INFO  time: compiled Exercism_9e528805c5 in 79ms[0m
+2024.12.26 17:25:43 INFO  Shutting down server[0m
+2024.12.26 17:25:43 INFO  shutting down Metals[0m
+2024.12.26 17:25:43 INFO  Shut down connection with build server.[0m
+Dec 26, 2024 5:25:43 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.20.Final
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@17d677df[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 23722]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2082)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1377)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
