@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(BobTest, org.scalatest.tools.Framework$$anon$1@3af2e889, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(BobTest, org.scalatest.tools.Framework$$anon$1@4709a73, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mBobTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- stating something[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- shouting[0m[0m
@@ -25,7 +25,7 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- ending with whitespace[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- other whitespace[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- non-question ending with whitespace[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 369 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 217 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 25[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 25, failed 0, canceled 0, ignored 0, pending 0[0m[0m

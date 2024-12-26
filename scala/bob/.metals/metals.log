@@ -1,0 +1,18 @@
+2024.12.26 20:35:10 INFO  Started: Metals version 1.4.1 in folders '/home/nt2311/Projects/exercisim/scala/bob' for client Neovim 0.10.3+v0.10.3.[0m
+2024.12.26 20:35:10 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.[0m
+2024.12.26 20:35:15 INFO  no build target found for /home/nt2311/Projects/exercisim/scala/bob/src/main/scala/Bob.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.26 20:35:15 INFO  Selected port 5031[0m
+Dec 26, 2024 8:35:15 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.20.Final
+Dec 26, 2024 8:35:15 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.16.Final
+Dec 26, 2024 8:35:15 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.16.Final
+Dec 26, 2024 8:35:15 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2024.12.26 20:35:15 INFO  Started Metals http server at http://127.0.0.1:5031[0m
+2024.12.26 20:35:16 INFO  Shutting down server[0m
+2024.12.26 20:35:16 INFO  shutting down Metals[0m
+2024.12.26 20:35:16 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.[0m
+Dec 26, 2024 8:35:16 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.20.Final
