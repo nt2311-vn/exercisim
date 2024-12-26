@@ -233,3 +233,25 @@ INFO: JBoss Threads version 3.1.0.Final
 2024.12.26 14:05:19 INFO  time: compiled Exercism_9e528805c5 in 85ms[0m
 2024.12.26 14:05:20 INFO  compiling exercism_9e528805c5 (2 scala sources and 11 java sources)[0m
 2024.12.26 14:05:20 INFO  time: compiled Exercism_9e528805c5 in 85ms[0m
+2024.12.26 14:14:56 INFO  Shutting down server[0m
+2024.12.26 14:14:56 INFO  shutting down Metals[0m
+2024.12.26 14:14:56 INFO  Shut down connection with build server.[0m
+Dec 26, 2024 2:14:56 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.20.Final
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@17d677df[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 23034]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2082)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1377)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
