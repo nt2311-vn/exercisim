@@ -1,9 +1,9 @@
 class School:
   type DB = Map[Int, Seq[String]]
-  private var database: DB = Map.empty
+  private var database: DB = Map()
 
   def add(name: String, g: Int) =
-    database = database.updated(g, database.getOrElse(g, Seq()) :+ name)
+    database = database + (g -> (database.getOrElse(g, Seq()) :+ name))
 
   def db: DB = database
 
