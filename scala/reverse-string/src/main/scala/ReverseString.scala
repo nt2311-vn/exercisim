@@ -1,7 +1,7 @@
 object ReverseString:
   // def reverse(str: String): String = str.reverse
   def reverse(str: String): String =
-    reverseOperation(str.toList, "")
+    str.foldRight("")((char, acc) => acc + char)
 
   def reverseOperation(chars: List[Char], acc: String): String =
     chars match

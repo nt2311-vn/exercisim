@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ReverseStringTest, org.scalatest.tools.Framework$$anon$1@3aaa598d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ReverseStringTest, org.scalatest.tools.Framework$$anon$1@49cc0c4c, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mReverseStringTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- an empty string[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- a word[0m[0m
@@ -6,7 +6,7 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- a sentence with punctuation[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- a palindrome[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- an even-sized word[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 309 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 373 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0[0m[0m
