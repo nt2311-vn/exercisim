@@ -11,7 +11,4 @@ class School:
     database.getOrElse(g, Seq())
 
   def sorted: DB =
-    database.toSeq
-      .sortBy(_._1)
-      .map { case (g, names) => g -> names.sorted }
-      .toMap
+    database.view.mapValues(_.sorted).toSeq.sortBy(_._1).toMap
