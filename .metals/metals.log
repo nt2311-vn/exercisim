@@ -1007,3 +1007,240 @@ INFO: JBoss Threads version 3.1.0.Final
 2024.12.27 15:06:52 INFO  time: compiled Exercism_9e528805c5 in 0.11s[0m
 2024.12.27 15:06:54 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
 2024.12.27 15:06:54 INFO  time: compiled Exercism_9e528805c5 in 0.1s[0m
+2024.12.27 15:08:59 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:08:59 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 32m 7.588s)[0m
+2024.12.27 15:08:59 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:08:59 INFO  time: compiled Exercism_9e528805c5 in 0.11s[0m
+2024.12.27 15:08:59 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:08:59 INFO  time: compiled Exercism_9e528805c5 in 0.19s[0m
+2024.12.27 15:09:01 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:09:01 INFO  time: compiled Exercism_9e528805c5 in 0.11s[0m
+2024.12.27 15:09:22 INFO  Shutting down server[0m
+2024.12.27 15:09:22 INFO  shutting down Metals[0m
+2024.12.27 15:09:22 INFO  Shut down connection with build server.[0m
+Dec 27, 2024 3:09:22 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.20.Final
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@17d677df[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 11890]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2082)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1377)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024.12.27 15:10:50 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Work\Project\Exercism\.metals\lsp.trace.json[0m
+2024.12.27 15:10:51 INFO  logging to files D:\Work\Project\Exercism\.metals\metals.log[0m
+2024.12.27 15:10:51 INFO  Started: Metals version 1.4.2 in folders 'D:\Work\Project\Exercism' for client Neovim 0.10.1+g7e194f0d0.[0m
+2024.12.27 15:10:53 INFO  Attempting to connect to the build server...[0m
+2024.12.27 15:10:53 INFO  Running BSP server List(C:\Users\NguyenToan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\Work\Project\Exercism\.scala-build\ide-options-v2.json, --json-launcher-options, D:\Work\Project\Exercism\.scala-build\ide-launcher-options.json, --envs-file, D:\Work\Project\Exercism\.scala-build\ide-envs.json, D:\Work\Project\Exercism)[0m
+2024.12.27 15:10:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Work\Project\Exercism\.metals\bsp.trace.json[0m
+2024.12.27 15:10:56 INFO  no build target found for D:\Work\Project\Exercism\scala\strain\src\test\scala\StrainTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.27 15:10:58 INFO  time: Connected to build server in 5.3s[0m
+2024.12.27 15:10:58 INFO  Connected to Build server: scala-cli v1.5.4[0m
+2024.12.27 15:10:58 INFO  running doctor check[0m
+2024.12.27 15:10:58 INFO  java targets: Exercism_9e528805c5, Exercism_9e528805c5-test[0m
+2024.12.27 15:10:58 WARN  Unable to run doctor. Make sure `isHttpEnabled` is set to `true`.[0m
+2024.12.27 15:10:59 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:10:59 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 4.992s)[0m
+2024.12.27 15:10:59 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:10:59 INFO  time: compiled Exercism_9e528805c5 in 92ms[0m
+2024.12.27 15:10:59 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 5.174s)[0m
+2024.12.27 15:10:59 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:10:59 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:10:59 INFO  time: compiled Exercism_9e528805c5 in 0.21s[0m
+2024.12.27 15:11:03 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:11:02 INFO  time: indexed workspace in 4.78s[0m
+2024.12.27 15:11:03 INFO  time: compiled Exercism_9e528805c5 in 0.32s[0m
+2024.12.27 15:11:02 INFO  Selected port 5031[0m
+Dec 27, 2024 3:11:03 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.20.Final
+Dec 27, 2024 3:11:03 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.16.Final
+Dec 27, 2024 3:11:03 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.16.Final
+Dec 27, 2024 3:11:03 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2024.12.27 15:11:03 INFO  Started Metals http server at http://127.0.0.1:5031[0m
+2024.12.27 15:11:04 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:11:04 INFO  time: compiled Exercism_9e528805c5 in 0.17s[0m
+2024.12.27 15:11:06 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:11:06 INFO  time: compiled Exercism_9e528805c5 in 0.13s[0m
+2024.12.27 15:11:13 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:11:13 INFO  time: compiled Exercism_9e528805c5 in 0.13s[0m
+2024.12.27 15:11:49 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:11:49 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 54.792s)[0m
+2024.12.27 15:11:49 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:11:49 INFO  time: compiled Exercism_9e528805c5 in 0.16s[0m
+2024.12.27 15:11:49 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:11:49 INFO  time: compiled Exercism_9e528805c5 in 0.18s[0m
+2024.12.27 15:11:50 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:11:50 INFO  time: compiled Exercism_9e528805c5 in 0.16s[0m
+2024.12.27 15:11:50 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:11:50 INFO  time: compiled Exercism_9e528805c5 in 0.13s[0m
+2024.12.27 15:11:52 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:11:52 INFO  time: compiled Exercism_9e528805c5 in 0.17s[0m
+2024.12.27 15:11:55 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:11:55 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 1m 0.135s)[0m
+2024.12.27 15:11:55 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:11:55 INFO  time: compiled Exercism_9e528805c5 in 76ms[0m
+2024.12.27 15:11:55 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:11:55 INFO  time: compiled Exercism_9e528805c5 in 0.11s[0m
+2024.12.27 15:11:56 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:11:56 INFO  time: compiled Exercism_9e528805c5 in 97ms[0m
+2024.12.27 15:12:50 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:12:50 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 1m 55.258s)[0m
+2024.12.27 15:12:50 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:12:50 INFO  time: compiled Exercism_9e528805c5 in 0.12s[0m
+2024.12.27 15:12:50 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:12:50 INFO  time: compiled Exercism_9e528805c5 in 0.14s[0m
+2024.12.27 15:12:51 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:12:51 INFO  time: compiled Exercism_9e528805c5 in 0.12s[0m
+2024.12.27 15:13:03 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:13:03 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 2m 8.362s)[0m
+2024.12.27 15:13:03 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:13:03 INFO  time: compiled Exercism_9e528805c5 in 74ms[0m
+2024.12.27 15:13:03 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:13:03 INFO  time: compiled Exercism_9e528805c5 in 0.1s[0m
+2024.12.27 15:13:04 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:13:04 INFO  time: compiled Exercism_9e528805c5 in 0.1s[0m
+2024.12.27 15:13:50 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:13:50 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 2m 55.711s)[0m
+2024.12.27 15:13:50 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:13:50 INFO  time: compiled Exercism_9e528805c5 in 99ms[0m
+2024.12.27 15:13:50 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:13:50 INFO  time: compiled Exercism_9e528805c5 in 0.12s[0m
+2024.12.27 15:13:51 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:13:51 INFO  time: compiled Exercism_9e528805c5 in 0.14s[0m
+Dec 27, 2024 3:15:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Work\Project\Exercism\.metals\.reports\metals-full\2024-12-27\r_compiler-error_(Exercism_9e528805c5)_15-15-27-819.md
+2024.12.27 15:15:31 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:15:31 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 4m 36.78s)[0m
+2024.12.27 15:15:31 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:15:31 INFO  time: compiled Exercism_9e528805c5 in 0.36s[0m
+2024.12.27 15:15:31 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:15:31 INFO  time: compiled Exercism_9e528805c5 in 0.39s[0m
+2024.12.27 15:15:33 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:15:33 INFO  time: compiled Exercism_9e528805c5 in 0.24s[0m
+2024.12.27 15:16:24 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:16:24 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 5m 29.692s)[0m
+2024.12.27 15:16:24 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:16:24 INFO  time: compiled Exercism_9e528805c5 in 0.27s[0m
+2024.12.27 15:16:24 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:16:24 INFO  time: compiled Exercism_9e528805c5 in 0.4s[0m
+2024.12.27 15:16:26 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:16:26 INFO  time: compiled Exercism_9e528805c5 in 0.26s[0m
+Dec 27, 2024 3:17:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 248
+2024.12.27 15:18:06 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:18:06 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 7m 11.795s)[0m
+2024.12.27 15:18:06 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:18:06 INFO  time: compiled Exercism_9e528805c5 in 0.11s[0m
+2024.12.27 15:18:06 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:18:06 INFO  time: compiled Exercism_9e528805c5 in 0.12s[0m
+2024.12.27 15:18:08 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:18:08 INFO  time: compiled Exercism_9e528805c5 in 0.13s[0m
+Dec 27, 2024 3:18:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Work\Project\Exercism\.metals\.reports\metals-full\2024-12-27\r_compiler-error_(Exercism_9e528805c5)_15-18-39-518.md
+Dec 27, 2024 3:18:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Work\Project\Exercism\.metals\.reports\metals-full\2024-12-27\r_compiler-error_(Exercism_9e528805c5)_15-18-39-746.md
+Dec 27, 2024 3:18:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Work\Project\Exercism\.metals\.reports\metals-full\2024-12-27\r_compiler-error_(Exercism_9e528805c5)_15-18-39-890.md
+Dec 27, 2024 3:18:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Work\Project\Exercism\.metals\.reports\metals-full\2024-12-27\r_compiler-error_(Exercism_9e528805c5)_15-18-40-032.md
+Dec 27, 2024 3:18:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Work\Project\Exercism\.metals\.reports\metals-full\2024-12-27\r_compiler-error_(Exercism_9e528805c5)_15-18-40-207.md
+Dec 27, 2024 3:18:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Work\Project\Exercism\.metals\.reports\metals-full\2024-12-27\r_compiler-error_(Exercism_9e528805c5)_15-18-43-710.md
+2024.12.27 15:19:00 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:19:00 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 8m 5.112s)[0m
+2024.12.27 15:19:00 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:19:00 INFO  time: compiled Exercism_9e528805c5 in 0.37s[0m
+2024.12.27 15:19:00 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:19:00 INFO  time: compiled Exercism_9e528805c5 in 0.41s[0m
+2024.12.27 15:19:01 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:19:01 INFO  time: compiled Exercism_9e528805c5 in 0.33s[0m
+2024.12.27 15:19:46 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:19:46 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 8m 51.866s)[0m
+2024.12.27 15:19:46 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:19:46 INFO  time: compiled Exercism_9e528805c5 in 0.17s[0m
+2024.12.27 15:19:46 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:19:46 INFO  time: compiled Exercism_9e528805c5 in 0.14s[0m
+2024.12.27 15:19:48 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:19:48 INFO  time: compiled Exercism_9e528805c5 in 0.12s[0m
+2024.12.27 15:20:59 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:20:59 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 10m 4.612s)[0m
+2024.12.27 15:20:59 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:20:59 INFO  time: compiled Exercism_9e528805c5 in 0.3s[0m
+2024.12.27 15:20:59 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:20:59 INFO  time: compiled Exercism_9e528805c5 in 0.36s[0m
+2024.12.27 15:21:00 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:21:00 INFO  time: compiled Exercism_9e528805c5 in 0.25s[0m
+2024.12.27 15:21:08 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:21:08 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 10m 13.323s)[0m
+2024.12.27 15:21:08 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:21:08 INFO  time: compiled Exercism_9e528805c5 in 92ms[0m
+2024.12.27 15:21:08 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:21:08 INFO  time: compiled Exercism_9e528805c5 in 0.11s[0m
+2024.12.27 15:21:09 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:21:09 INFO  time: compiled Exercism_9e528805c5 in 94ms[0m
+Dec 27, 2024 3:21:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Work\Project\Exercism\.metals\.reports\metals-full\2024-12-27\r_compiler-error_(Exercism_9e528805c5)_15-21-21-793.md
+Dec 27, 2024 3:21:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Work\Project\Exercism\.metals\.reports\metals-full\2024-12-27\r_compiler-error_(Exercism_9e528805c5)_15-21-21-981.md
+Dec 27, 2024 3:21:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Work\Project\Exercism\.metals\.reports\metals-full\2024-12-27\r_compiler-error_(Exercism_9e528805c5)_15-21-22-152.md
+Dec 27, 2024 3:21:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Work\Project\Exercism\.metals\.reports\metals-full\2024-12-27\r_compiler-error_(Exercism_9e528805c5)_15-21-22-362.md
+Dec 27, 2024 3:21:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Work\Project\Exercism\.metals\.reports\metals-full\2024-12-27\r_compiler-error_(Exercism_9e528805c5)_15-21-22-506.md
+Dec 27, 2024 3:21:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Work\Project\Exercism\.metals\.reports\metals-full\2024-12-27\r_compiler-error_(Exercism_9e528805c5)_15-21-33-172.md
+2024.12.27 15:21:40 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:21:40 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 10m 45.443s)[0m
+2024.12.27 15:21:40 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:21:40 INFO  time: compiled Exercism_9e528805c5 in 0.31s[0m
+2024.12.27 15:21:40 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:21:40 INFO  time: compiled Exercism_9e528805c5 in 0.34s[0m
+2024.12.27 15:21:42 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:21:42 INFO  time: compiled Exercism_9e528805c5 in 0.26s[0m
+2024.12.27 15:22:32 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:22:32 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 11m 37.918s)[0m
+2024.12.27 15:22:32 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:22:32 INFO  time: compiled Exercism_9e528805c5 in 0.14s[0m
+2024.12.27 15:22:32 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:22:32 INFO  time: compiled Exercism_9e528805c5 in 0.14s[0m
+2024.12.27 15:22:34 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:22:34 INFO  time: compiled Exercism_9e528805c5 in 0.13s[0m
+2024.12.27 15:23:43 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:23:43 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 12m 48.499s)[0m
+2024.12.27 15:23:43 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:23:43 INFO  time: compiled Exercism_9e528805c5 in 0.1s[0m
+2024.12.27 15:23:43 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:23:43 INFO  time: compiled Exercism_9e528805c5 in 0.12s[0m
+2024.12.27 15:23:45 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:23:45 INFO  time: compiled Exercism_9e528805c5 in 0.1s[0m
+2024.12.27 15:25:47 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:25:47 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 14m 52.212s)[0m
+2024.12.27 15:25:47 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:25:47 INFO  time: compiled Exercism_9e528805c5 in 0.18s[0m
+2024.12.27 15:25:47 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:25:47 INFO  time: compiled Exercism_9e528805c5 in 0.21s[0m
+2024.12.27 15:25:48 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:25:48 INFO  time: compiled Exercism_9e528805c5 in 0.16s[0m
+2024.12.27 15:26:00 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:26:00 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 15m 5.763s)[0m
+2024.12.27 15:26:00 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:26:00 INFO  time: compiled Exercism_9e528805c5 in 0.1s[0m
+2024.12.27 15:26:00 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:26:00 INFO  time: compiled Exercism_9e528805c5 in 0.13s[0m
+2024.12.27 15:26:02 INFO  compiling exercism_9e528805c5 (6 scala sources and 11 java sources)[0m
+2024.12.27 15:26:02 INFO  time: compiled Exercism_9e528805c5 in 0.12s[0m
