@@ -635,3 +635,375 @@ java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) re
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024.12.27 11:49:37 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Work\Project\Exercism\.metals\lsp.trace.json[0m
+2024.12.27 11:49:38 INFO  logging to files D:\Work\Project\Exercism\.metals\metals.log[0m
+2024.12.27 11:49:38 INFO  Started: Metals version 1.4.2 in folders 'D:\Work\Project\Exercism' for client Neovim 0.10.1+g7e194f0d0.[0m
+2024.12.27 11:49:40 INFO  Attempting to connect to the build server...[0m
+2024.12.27 11:49:40 INFO  Running BSP server List(C:\Users\NguyenToan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\Work\Project\Exercism\.scala-build\ide-options-v2.json, --json-launcher-options, D:\Work\Project\Exercism\.scala-build\ide-launcher-options.json, --envs-file, D:\Work\Project\Exercism\.scala-build\ide-envs.json, D:\Work\Project\Exercism)[0m
+2024.12.27 11:49:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Work\Project\Exercism\.metals\bsp.trace.json[0m
+2024.12.27 11:49:46 INFO  time: Connected to build server in 6.83s[0m
+2024.12.27 11:49:46 INFO  Connected to Build server: scala-cli v1.5.4[0m
+2024.12.27 11:49:46 INFO  time: Imported build in 0.16s[0m
+2024.12.27 11:49:46 INFO  running doctor check[0m
+2024.12.27 11:49:46 INFO  java targets: Exercism_9e528805c5, Exercism_9e528805c5-test[0m
+2024.12.27 11:49:46 WARN  Unable to run doctor. Make sure `isHttpEnabled` is set to `true`.[0m
+2024.12.27 11:49:47 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:49:52 INFO  time: compiled Exercism_9e528805c5 in 4.34s[0m
+2024.12.27 11:49:52 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:49:53 INFO  time: compiled Exercism_9e528805c5 in 0.96s[0m
+2024.12.27 11:50:00 INFO  time: indexed workspace in 13s[0m
+2024.12.27 11:50:01 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:50:01 INFO  time: compiled Exercism_9e528805c5 in 0.57s[0m
+2024.12.27 11:50:01 INFO  Selected port 5031[0m
+Dec 27, 2024 11:50:01 AM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.20.Final
+Dec 27, 2024 11:50:02 AM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.16.Final
+Dec 27, 2024 11:50:02 AM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.16.Final
+Dec 27, 2024 11:50:02 AM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2024.12.27 11:50:01 INFO  Started Metals http server at http://127.0.0.1:5031[0m
+2024.12.27 11:50:03 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:50:03 INFO  time: compiled Exercism_9e528805c5 in 0.69s[0m
+2024.12.27 11:50:25 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:50:25 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 42.217s)[0m
+2024.12.27 11:50:25 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:50:25 INFO  time: compiled Exercism_9e528805c5 in 0.28s[0m
+2024.12.27 11:50:25 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:50:25 INFO  time: compiled Exercism_9e528805c5 in 0.37s[0m
+2024.12.27 11:50:27 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:50:27 INFO  time: compiled Exercism_9e528805c5 in 0.28s[0m
+2024.12.27 11:52:40 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:52:40 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 2m 56.971s)[0m
+2024.12.27 11:52:40 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:52:41 INFO  time: compiled Exercism_9e528805c5 in 1.02s[0m
+2024.12.27 11:52:41 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:52:42 INFO  time: compiled Exercism_9e528805c5 in 1.07s[0m
+2024.12.27 11:52:42 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:52:42 INFO  time: compiled Exercism_9e528805c5 in 0.53s[0m
+2024.12.27 11:52:59 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:52:59 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 3m 15.906s)[0m
+2024.12.27 11:52:59 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:52:59 INFO  time: compiled Exercism_9e528805c5 in 0.47s[0m
+2024.12.27 11:52:59 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:53:00 INFO  time: compiled Exercism_9e528805c5 in 0.6s[0m
+2024.12.27 11:53:00 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:53:01 INFO  time: compiled Exercism_9e528805c5 in 0.34s[0m
+2024.12.27 11:53:17 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:53:17 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 3m 34.359s)[0m
+2024.12.27 11:53:17 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:53:17 INFO  time: compiled Exercism_9e528805c5 in 0.2s[0m
+2024.12.27 11:53:17 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:53:17 INFO  time: compiled Exercism_9e528805c5 in 0.23s[0m
+2024.12.27 11:53:19 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:53:19 INFO  time: compiled Exercism_9e528805c5 in 0.17s[0m
+2024.12.27 11:53:32 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:53:32 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 3m 49.605s)[0m
+2024.12.27 11:53:32 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:53:32 INFO  time: compiled Exercism_9e528805c5 in 0.39s[0m
+2024.12.27 11:53:32 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:53:32 INFO  time: compiled Exercism_9e528805c5 in 0.43s[0m
+2024.12.27 11:53:34 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:53:34 INFO  time: compiled Exercism_9e528805c5 in 0.35s[0m
+2024.12.27 11:53:43 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:53:43 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 4m 0.2s)[0m
+2024.12.27 11:53:43 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:53:43 INFO  time: compiled Exercism_9e528805c5 in 0.1s[0m
+2024.12.27 11:53:43 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:53:43 INFO  time: compiled Exercism_9e528805c5 in 0.17s[0m
+2024.12.27 11:53:45 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:53:45 INFO  time: compiled Exercism_9e528805c5 in 0.15s[0m
+2024.12.27 11:54:36 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:54:36 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 4m 53.208s)[0m
+2024.12.27 11:54:36 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:54:36 INFO  time: compiled Exercism_9e528805c5 in 0.18s[0m
+2024.12.27 11:54:36 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:54:36 INFO  time: compiled Exercism_9e528805c5 in 0.19s[0m
+2024.12.27 11:54:38 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:54:38 INFO  time: compiled Exercism_9e528805c5 in 0.23s[0m
+2024.12.27 11:56:10 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:56:10 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 6m 27.316s)[0m
+2024.12.27 11:56:10 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:56:10 INFO  time: compiled Exercism_9e528805c5 in 0.58s[0m
+2024.12.27 11:56:10 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:56:11 INFO  time: compiled Exercism_9e528805c5 in 0.43s[0m
+2024.12.27 11:56:11 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:56:11 INFO  time: compiled Exercism_9e528805c5 in 0.4s[0m
+2024.12.27 11:56:23 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:56:23 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 6m 40.226s)[0m
+2024.12.27 11:56:23 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:56:23 INFO  time: compiled Exercism_9e528805c5 in 0.27s[0m
+2024.12.27 11:56:23 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:56:23 INFO  time: compiled Exercism_9e528805c5 in 0.34s[0m
+2024.12.27 11:56:25 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:56:25 INFO  time: compiled Exercism_9e528805c5 in 0.28s[0m
+2024.12.27 11:56:31 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:56:31 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 6m 47.849s)[0m
+2024.12.27 11:56:31 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:56:31 INFO  time: compiled Exercism_9e528805c5 in 0.14s[0m
+2024.12.27 11:56:31 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:56:31 INFO  time: compiled Exercism_9e528805c5 in 0.14s[0m
+2024.12.27 11:56:32 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:56:32 INFO  time: compiled Exercism_9e528805c5 in 0.17s[0m
+2024.12.27 11:56:56 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:56:56 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 7m 12.822s)[0m
+2024.12.27 11:56:56 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:56:56 INFO  time: compiled Exercism_9e528805c5 in 0.29s[0m
+2024.12.27 11:56:56 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:56:56 INFO  time: compiled Exercism_9e528805c5 in 0.34s[0m
+2024.12.27 11:56:57 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:56:57 INFO  time: compiled Exercism_9e528805c5 in 0.22s[0m
+2024.12.27 11:58:08 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:58:08 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 8m 25.336s)[0m
+2024.12.27 11:58:08 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:58:08 INFO  time: compiled Exercism_9e528805c5 in 0.42s[0m
+2024.12.27 11:58:08 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:58:08 INFO  time: compiled Exercism_9e528805c5 in 0.42s[0m
+2024.12.27 11:58:10 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:58:10 INFO  time: compiled Exercism_9e528805c5 in 0.33s[0m
+2024.12.27 11:58:18 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:58:18 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 8m 34.786s)[0m
+2024.12.27 11:58:18 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:58:18 INFO  time: compiled Exercism_9e528805c5 in 0.11s[0m
+2024.12.27 11:58:18 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:58:18 INFO  time: compiled Exercism_9e528805c5 in 0.12s[0m
+2024.12.27 11:58:19 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:58:19 INFO  time: compiled Exercism_9e528805c5 in 0.14s[0m
+2024.12.27 11:58:28 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:58:28 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 8m 45.285s)[0m
+2024.12.27 11:58:28 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:58:28 INFO  time: compiled Exercism_9e528805c5 in 0.25s[0m
+2024.12.27 11:58:28 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:58:28 INFO  time: compiled Exercism_9e528805c5 in 0.24s[0m
+2024.12.27 11:58:30 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:58:30 INFO  time: compiled Exercism_9e528805c5 in 0.23s[0m
+2024.12.27 11:59:58 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:59:58 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 10m 15.68s)[0m
+2024.12.27 11:59:58 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:59:58 INFO  time: compiled Exercism_9e528805c5 in 0.13s[0m
+2024.12.27 11:59:58 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 11:59:58 INFO  time: compiled Exercism_9e528805c5 in 0.17s[0m
+2024.12.27 12:00:00 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 12:00:00 INFO  time: compiled Exercism_9e528805c5 in 0.14s[0m
+2024.12.27 13:56:06 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 2h 6m 22.898s)[0m
+2024.12.27 13:56:06 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 13:56:06 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 13:56:06 INFO  time: compiled Exercism_9e528805c5 in 0.28s[0m
+2024.12.27 13:56:06 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 13:56:06 INFO  time: compiled Exercism_9e528805c5 in 0.18s[0m
+2024.12.27 13:56:07 INFO  compiling exercism_9e528805c5 (4 scala sources and 11 java sources)[0m
+2024.12.27 13:56:07 INFO  time: compiled Exercism_9e528805c5 in 0.13s[0m
+2024.12.27 14:09:55 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:09:55 INFO  running doctor check[0m
+2024.12.27 14:09:55 INFO  java targets: Exercism_9e528805c5, Exercism_9e528805c5-test[0m
+2024.12.27 14:09:55 INFO  time: compiled Exercism_9e528805c5 in 0.2s[0m
+2024.12.27 14:09:55 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:09:55 INFO  time: compiled Exercism_9e528805c5 in 0.14s[0m
+2024.12.27 14:09:56 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:09:56 INFO  time: compiled Exercism_9e528805c5 in 0.2s[0m
+2024.12.27 14:09:56 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:09:56 INFO  time: compiled Exercism_9e528805c5 in 0.18s[0m
+2024.12.27 14:09:56 INFO  time: indexed workspace in 1.64s[0m
+2024.12.27 14:09:57 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:09:57 INFO  time: compiled Exercism_9e528805c5 in 0.13s[0m
+2024.12.27 14:09:59 INFO  Shutting down server[0m
+2024.12.27 14:09:59 INFO  shutting down Metals[0m
+2024.12.27 14:09:59 INFO  Shut down connection with build server.[0m
+Dec 27, 2024 2:09:59 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.20.Final
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@17d677df[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 9475]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2082)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1377)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024.12.27 14:36:47 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Work\Project\Exercism\.metals\lsp.trace.json[0m
+2024.12.27 14:36:48 INFO  logging to files D:\Work\Project\Exercism\.metals\metals.log[0m
+2024.12.27 14:36:48 INFO  Started: Metals version 1.4.2 in folders 'D:\Work\Project\Exercism' for client Neovim 0.10.1+g7e194f0d0.[0m
+2024.12.27 14:36:50 INFO  Attempting to connect to the build server...[0m
+2024.12.27 14:36:50 INFO  Running BSP server List(C:\Users\NguyenToan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\Work\Project\Exercism\.scala-build\ide-options-v2.json, --json-launcher-options, D:\Work\Project\Exercism\.scala-build\ide-launcher-options.json, --envs-file, D:\Work\Project\Exercism\.scala-build\ide-envs.json, D:\Work\Project\Exercism)[0m
+2024.12.27 14:36:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Work\Project\Exercism\.metals\bsp.trace.json[0m
+2024.12.27 14:36:55 INFO  time: Connected to build server in 5.41s[0m
+2024.12.27 14:36:55 INFO  Connected to Build server: scala-cli v1.5.4[0m
+2024.12.27 14:36:55 INFO  running doctor check[0m
+2024.12.27 14:36:55 INFO  java targets: Exercism_9e528805c5, Exercism_9e528805c5-test[0m
+2024.12.27 14:36:55 WARN  Unable to run doctor. Make sure `isHttpEnabled` is set to `true`.[0m
+2024.12.27 14:36:56 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:36:56 INFO  time: compiled Exercism_9e528805c5 in 0.21s[0m
+2024.12.27 14:36:56 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:36:56 INFO  time: compiled Exercism_9e528805c5 in 0.15s[0m
+2024.12.27 14:36:58 INFO  time: indexed workspace in 3.07s[0m
+2024.12.27 14:36:59 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:36:59 INFO  time: compiled Exercism_9e528805c5 in 0.15s[0m
+2024.12.27 14:36:59 INFO  Selected port 5031[0m
+Dec 27, 2024 2:36:59 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.20.Final
+Dec 27, 2024 2:36:59 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.16.Final
+Dec 27, 2024 2:36:59 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.16.Final
+Dec 27, 2024 2:36:59 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2024.12.27 14:36:59 INFO  Started Metals http server at http://127.0.0.1:5031[0m
+2024.12.27 14:37:00 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:37:00 INFO  time: compiled Exercism_9e528805c5 in 0.16s[0m
+2024.12.27 14:44:36 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:44:36 INFO  time: compiled Exercism_9e528805c5 in 0.16s[0m
+2024.12.27 14:44:45 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:44:45 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 7m 53.203s)[0m
+2024.12.27 14:44:45 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:44:45 INFO  time: compiled Exercism_9e528805c5 in 0.1s[0m
+2024.12.27 14:44:45 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:44:45 INFO  time: compiled Exercism_9e528805c5 in 0.15s[0m
+2024.12.27 14:44:47 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:44:47 INFO  time: compiled Exercism_9e528805c5 in 0.17s[0m
+2024.12.27 14:45:20 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:45:20 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 8m 28.744s)[0m
+2024.12.27 14:45:20 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:45:20 INFO  time: compiled Exercism_9e528805c5 in 41ms[0m
+2024.12.27 14:45:20 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:45:20 INFO  time: compiled Exercism_9e528805c5 in 0.16s[0m
+2024.12.27 14:45:21 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:45:21 INFO  time: compiled Exercism_9e528805c5 in 0.15s[0m
+2024.12.27 14:45:21 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:45:21 INFO  time: compiled Exercism_9e528805c5 in 0.18s[0m
+2024.12.27 14:45:23 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:45:23 INFO  time: compiled Exercism_9e528805c5 in 0.18s[0m
+2024.12.27 14:52:15 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:52:15 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 15m 22.989s)[0m
+2024.12.27 14:52:15 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:52:15 INFO  time: compiled Exercism_9e528805c5 in 0.18s[0m
+2024.12.27 14:52:15 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:52:15 INFO  time: compiled Exercism_9e528805c5 in 0.18s[0m
+2024.12.27 14:52:16 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:52:16 INFO  time: compiled Exercism_9e528805c5 in 0.13s[0m
+2024.12.27 14:52:16 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:52:16 INFO  time: compiled Exercism_9e528805c5 in 0.12s[0m
+2024.12.27 14:52:17 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:52:17 INFO  time: compiled Exercism_9e528805c5 in 0.12s[0m
+2024.12.27 14:53:48 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:53:48 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 16m 56.42s)[0m
+2024.12.27 14:53:48 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:53:48 INFO  time: compiled Exercism_9e528805c5 in 0.21s[0m
+2024.12.27 14:53:48 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:53:48 INFO  time: compiled Exercism_9e528805c5 in 0.22s[0m
+2024.12.27 14:53:50 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:53:50 INFO  time: compiled Exercism_9e528805c5 in 0.16s[0m
+2024.12.27 14:58:11 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:58:11 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 21m 19.884s)[0m
+2024.12.27 14:58:11 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:58:11 INFO  time: compiled Exercism_9e528805c5 in 0.16s[0m
+2024.12.27 14:58:11 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:58:11 INFO  time: compiled Exercism_9e528805c5 in 0.2s[0m
+2024.12.27 14:58:12 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:58:12 INFO  time: compiled Exercism_9e528805c5 in 0.16s[0m
+2024.12.27 14:59:30 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:59:30 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 22m 38.147s)[0m
+2024.12.27 14:59:30 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:59:30 INFO  time: compiled Exercism_9e528805c5 in 0.12s[0m
+2024.12.27 14:59:30 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:59:30 INFO  time: compiled Exercism_9e528805c5 in 0.15s[0m
+2024.12.27 14:59:31 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 14:59:31 INFO  time: compiled Exercism_9e528805c5 in 0.12s[0m
+2024.12.27 15:00:59 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:00:59 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 24m 7.038s)[0m
+2024.12.27 15:00:59 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:00:59 INFO  time: compiled Exercism_9e528805c5 in 76ms[0m
+2024.12.27 15:00:59 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:00:59 INFO  time: compiled Exercism_9e528805c5 in 0.13s[0m
+2024.12.27 15:01:00 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:01:00 INFO  time: compiled Exercism_9e528805c5 in 0.15s[0m
+2024.12.27 15:01:01 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:01:01 INFO  time: compiled Exercism_9e528805c5 in 0.1s[0m
+2024.12.27 15:01:20 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:01:20 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 24m 28.815s)[0m
+2024.12.27 15:01:20 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:01:20 INFO  time: compiled Exercism_9e528805c5 in 52ms[0m
+2024.12.27 15:01:20 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:01:20 INFO  time: compiled Exercism_9e528805c5 in 0.12s[0m
+2024.12.27 15:01:22 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:01:22 INFO  time: compiled Exercism_9e528805c5 in 0.13s[0m
+2024.12.27 15:01:26 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:01:26 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 24m 34.768s)[0m
+2024.12.27 15:01:26 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:01:26 INFO  time: compiled Exercism_9e528805c5 in 40ms[0m
+2024.12.27 15:01:26 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:01:26 INFO  time: compiled Exercism_9e528805c5 in 0.11s[0m
+2024.12.27 15:01:28 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:01:28 INFO  time: compiled Exercism_9e528805c5 in 0.13s[0m
+2024.12.27 15:02:48 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:02:48 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 25m 56.566s)[0m
+2024.12.27 15:02:48 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:02:48 INFO  time: compiled Exercism_9e528805c5 in 0.1s[0m
+2024.12.27 15:02:48 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:02:48 INFO  time: compiled Exercism_9e528805c5 in 0.18s[0m
+2024.12.27 15:02:50 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:02:50 INFO  time: compiled Exercism_9e528805c5 in 0.14s[0m
+2024.12.27 15:02:54 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:02:54 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 26m 2.31s)[0m
+2024.12.27 15:02:54 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:02:54 INFO  time: compiled Exercism_9e528805c5 in 50ms[0m
+2024.12.27 15:02:54 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:02:54 INFO  time: compiled Exercism_9e528805c5 in 0.14s[0m
+2024.12.27 15:02:55 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:02:55 INFO  time: compiled Exercism_9e528805c5 in 0.12s[0m
+2024.12.27 15:03:23 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:03:23 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 26m 31.257s)[0m
+2024.12.27 15:03:23 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:03:23 INFO  time: compiled Exercism_9e528805c5 in 49ms[0m
+2024.12.27 15:03:23 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:03:23 INFO  time: compiled Exercism_9e528805c5 in 0.11s[0m
+2024.12.27 15:03:24 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:03:24 INFO  time: compiled Exercism_9e528805c5 in 89ms[0m
+2024.12.27 15:04:11 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:04:11 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 27m 18.929s)[0m
+2024.12.27 15:04:11 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:04:11 INFO  time: compiled Exercism_9e528805c5 in 0.12s[0m
+2024.12.27 15:04:11 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:04:11 INFO  time: compiled Exercism_9e528805c5 in 0.13s[0m
+2024.12.27 15:04:12 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:04:12 INFO  time: compiled Exercism_9e528805c5 in 0.11s[0m
+2024.12.27 15:04:34 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:04:34 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 27m 42.057s)[0m
+2024.12.27 15:04:34 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:04:34 INFO  time: compiled Exercism_9e528805c5 in 70ms[0m
+2024.12.27 15:04:34 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:04:34 INFO  time: compiled Exercism_9e528805c5 in 0.11s[0m
+2024.12.27 15:04:35 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:04:35 INFO  time: compiled Exercism_9e528805c5 in 92ms[0m
+2024.12.27 15:06:23 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:06:23 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 29m 31.685s)[0m
+2024.12.27 15:06:23 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:06:23 INFO  time: compiled Exercism_9e528805c5 in 0.14s[0m
+2024.12.27 15:06:23 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:06:23 INFO  time: compiled Exercism_9e528805c5 in 0.12s[0m
+2024.12.27 15:06:25 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:06:25 INFO  time: compiled Exercism_9e528805c5 in 0.11s[0m
+2024.12.27 15:06:41 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:06:41 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 29m 49.102s)[0m
+2024.12.27 15:06:41 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:06:41 INFO  time: compiled Exercism_9e528805c5 in 84ms[0m
+2024.12.27 15:06:41 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:06:41 INFO  time: compiled Exercism_9e528805c5 in 0.11s[0m
+2024.12.27 15:06:42 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:06:42 INFO  time: compiled Exercism_9e528805c5 in 93ms[0m
+2024.12.27 15:06:52 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:06:52 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 30m 0.628s)[0m
+2024.12.27 15:06:52 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:06:52 INFO  time: compiled Exercism_9e528805c5 in 0.11s[0m
+2024.12.27 15:06:52 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:06:52 INFO  time: compiled Exercism_9e528805c5 in 0.11s[0m
+2024.12.27 15:06:54 INFO  compiling exercism_9e528805c5 (5 scala sources and 11 java sources)[0m
+2024.12.27 15:06:54 INFO  time: compiled Exercism_9e528805c5 in 0.1s[0m
