@@ -1,26 +1,26 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = D:\Work\Project\Exercism\scala\robot-simulator\target\scala-3.4.2\classes.bak[0m
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Bearing$Robot.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Robot.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Robot$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bearing$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bearing.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bearing$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Bearing$Robot$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Bearing$Robot.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Robot.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Robot$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bearing$$anon$1.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bearing.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bearing$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Bearing$Robot$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Bearing$Robot.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Robot.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Robot$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bearing$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bearing.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bearing$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Bearing$Robot$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Bearing$Robot.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Robot.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Robot$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bearing$$anon$1.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bearing.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Bearing$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Bearing$Robot$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Robot.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Robot$.class[0m

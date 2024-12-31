@@ -19,13 +19,13 @@ case class Robot(bearing: Bearing, coordinates: (Int, Int)):
   def advance: Robot =
     bearing match
       case Bearing.West =>
-        Robot(bearing, (coordinates._1 - 1, coordinates._2))
+        Robot(bearing, (coordinates(0) - 1, coordinates(1)))
       case Bearing.North =>
-        Robot(bearing, (coordinates._1, coordinates._2 + 1))
+        Robot(bearing, (coordinates(0), coordinates(1) + 1))
       case Bearing.East =>
-        Robot(bearing, (coordinates._1 + 1, coordinates._2))
+        Robot(bearing, (coordinates(0) + 1, coordinates(1)))
       case Bearing.South =>
-        Robot(bearing, (coordinates._1, coordinates._2 - 1))
+        Robot(bearing, (coordinates(0), coordinates(1) - 1))
 
   def simulate(s: String): Robot =
     var currentRobot = this

@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RobotSimulatorTest, org.scalatest.tools.Framework$$anon$1@15d152b0, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RobotSimulatorTest, org.scalatest.tools.Framework$$anon$1@6b8396d5, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mRobotSimulatorTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- A robot is created with a position and a direction - Robots are created with a position and direction[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- A robot is created with a position and a direction - Negative positions are allowed[0m[0m
@@ -20,7 +20,7 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- Where R = Turn Right, L = Turn Left and A = Advance, the robot can follow a series of instructions and end up with the correct position and direction - instructions to move west and north[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Where R = Turn Right, L = Turn Left and A = Advance, the robot can follow a series of instructions and end up with the correct position and direction - instructions to move west and south[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Where R = Turn Right, L = Turn Left and A = Advance, the robot can follow a series of instructions and end up with the correct position and direction - instructions to move east and north[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 363 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 390 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 20[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 20, failed 0, canceled 0, ignored 0, pending 0[0m[0m

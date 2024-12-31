@@ -11,57 +11,27 @@
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(Bearing, Bearing.Robot)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(Bearing, Robot)[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(Bearing, Bearing.Robot)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(Bearing, Robot)[0m
 [0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/Robot.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Bearing, Bearing.Robot[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Bearing, Robot[0m
 [0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
 [0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to D:\Work\Project\Exercism\scala\robot-simulator\target\scala-3.4.2\classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: C:\Users\NguyenToan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-sbt-bridge\3.4.2\scala3-sbt-bridge-3.4.2.jar.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 4aefdadb for Scala Compiler version 3.4.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 5d695d6a for Scala Compiler version 3.4.2[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	D:\Work\Project\Exercism\scala\robot-simulator\target\scala-3.4.2\classes;C:\Users\NguyenToan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.4.2\scala3-library_3-3.4.2.jar;C:\Users\NguyenToan\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 3.0928032 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 3.2795338 s[0m
 [0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Bearing...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Bearing[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Bearing)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Bearing,ModifiedNames(changes = UsedName(Robot,[Default]))) invalidates 1 classes due to The Bearing has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(Robot,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(Bearing)[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Bearing.Robot...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Bearing.Robot[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Bearing.Robot)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Bearing.Robot,ModifiedNames(changes = UsedName(wait,[Default]), UsedName(finalize,[Default]), UsedName(MirroredElemLabels,[Default]), UsedName(clone,[Default]), UsedName(notify,[Default]), UsedName(bearing,[Default]), UsedName(apply,[Default]), UsedName(simulate,[Default]), UsedName(MirroredMonoType,[Default]), UsedName(productElementName,[Default]), UsedName(isInstanceOf,[Default]), UsedName(unapply,[Default]), UsedName(java;lang;Object;init;,[Default]), UsedName(productArity,[Default]), UsedName(eq,[Default]), UsedName(fromProduct,[Default]), UsedName(Robot,[Default]), UsedName(scala;deriving;Mirror;init;,[Default]), UsedName(java;io;Serializable;init;,[Default]), UsedName(coordinates,[Default]), UsedName(notifyAll,[Default]), UsedName(ne,[Default]), UsedName(canEqual,[Default]), UsedName(==,[Default]), UsedName(turnLeft,[Default]), UsedName(copy$default$1,[Default]), UsedName($isInstanceOf,[Default]), UsedName(Bearing;Robot$;init;,[Default]), UsedName($asInstanceOf,[Default]), UsedName(_2,[Default]), UsedName(toString,[Default]), UsedName(copy$default$2,[Default]), UsedName(scala;deriving;Mirror$;Product;init;,[Default]), UsedName(productPrefix,[Default]), UsedName(getClass,[Default]), UsedName(copy,[Default]), UsedName(Bearing;Robot;init;,[Default]), UsedName(productElement,[Default]), UsedName(##,[Default]), UsedName(synchronized,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(hashCode,[Default]), UsedName(MirroredLabel,[Default]), UsedName(_1,[Default]), UsedName(advance,[Default]), UsedName(asInstanceOf,[Default]), UsedName(turnRight,[Default]))) invalidates 1 classes due to The Bearing.Robot has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(wait,[Default]), UsedName(finalize,[Default]), UsedName(MirroredElemLabels,[Default]), UsedName(clone,[Default]), UsedName(notify,[Default]), UsedName(bearing,[Default]), UsedName(apply,[Default]), UsedName(simulate,[Default]), UsedName(MirroredMonoType,[Default]), UsedName(productElementName,[Default]), UsedName(isInstanceOf,[Default]), UsedName(unapply,[Default]), UsedName(java;lang;Object;init;,[Default]), UsedName(productArity,[Default]), UsedName(eq,[Default]), UsedName(fromProduct,[Default]), UsedName(Robot,[Default]), UsedName(scala;deriving;Mirror;init;,[Default]), UsedName(java;io;Serializable;init;,[Default]), UsedName(coordinates,[Default]), UsedName(notifyAll,[Default]), UsedName(ne,[Default]), UsedName(canEqual,[Default]), UsedName(==,[Default]), UsedName(turnLeft,[Default]), UsedName(copy$default$1,[Default]), UsedName($isInstanceOf,[Default]), UsedName(Bearing;Robot$;init;,[Default]), UsedName($asInstanceOf,[Default]), UsedName(_2,[Default]), UsedName(toString,[Default]), UsedName(copy$default$2,[Default]), UsedName(scala;deriving;Mirror$;Product;init;,[Default]), UsedName(productPrefix,[Default]), UsedName(getClass,[Default]), UsedName(copy,[Default]), UsedName(Bearing;Robot;init;,[Default]), UsedName(productElement,[Default]), UsedName(##,[Default]), UsedName(synchronized,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(hashCode,[Default]), UsedName(MirroredLabel,[Default]), UsedName(_1,[Default]), UsedName(advance,[Default]), UsedName(asInstanceOf,[Default]), UsedName(turnRight,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(Bearing.Robot)[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Robot...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Robot[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Robot)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Robot,ModifiedNames(changes = UsedName(wait,[Default]), UsedName(finalize,[Default]), UsedName(MirroredElemLabels,[Default]), UsedName(clone,[Default]), UsedName(notify,[Default]), UsedName(bearing,[Default]), UsedName(apply,[Default]), UsedName(simulate,[Default]), UsedName(MirroredMonoType,[Default]), UsedName(productElementName,[Default]), UsedName(isInstanceOf,[Default]), UsedName(unapply,[Default]), UsedName(java;lang;Object;init;,[Default]), UsedName(productArity,[Default]), UsedName(eq,[Default]), UsedName(fromProduct,[Default]), UsedName(Robot,[Default]), UsedName(scala;deriving;Mirror;init;,[Default]), UsedName(java;io;Serializable;init;,[Default]), UsedName(Robot;init;,[Default]), UsedName(coordinates,[Default]), UsedName(notifyAll,[Default]), UsedName(ne,[Default]), UsedName(canEqual,[Default]), UsedName(==,[Default]), UsedName(turnLeft,[Default]), UsedName(copy$default$1,[Default]), UsedName($isInstanceOf,[Default]), UsedName($asInstanceOf,[Default]), UsedName(_2,[Default]), UsedName(toString,[Default]), UsedName(copy$default$2,[Default]), UsedName(Robot$;init;,[Default]), UsedName(scala;deriving;Mirror$;Product;init;,[Default]), UsedName(productPrefix,[Default]), UsedName(getClass,[Default]), UsedName(copy,[Default]), UsedName(productElement,[Default]), UsedName(##,[Default]), UsedName(synchronized,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(hashCode,[Default]), UsedName(MirroredLabel,[Default]), UsedName(_1,[Default]), UsedName(advance,[Default]), UsedName(asInstanceOf,[Default]), UsedName(turnRight,[Default]))) invalidates 1 classes due to The Robot has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(wait,[Default]), UsedName(finalize,[Default]), UsedName(MirroredElemLabels,[Default]), UsedName(clone,[Default]), UsedName(notify,[Default]), UsedName(bearing,[Default]), UsedName(apply,[Default]), UsedName(simulate,[Default]), UsedName(MirroredMonoType,[Default]), UsedName(productElementName,[Default]), UsedName(isInstanceOf,[Default]), UsedName(unapply,[Default]), UsedName(java;lang;Object;init;,[Default]), UsedName(productArity,[Default]), UsedName(eq,[Default]), UsedName(fromProduct,[Default]), UsedName(Robot,[Default]), UsedName(scala;deriving;Mirror;init;,[Default]), UsedName(java;io;Serializable;init;,[Default]), UsedName(Robot;init;,[Default]), UsedName(coordinates,[Default]), UsedName(notifyAll,[Default]), UsedName(ne,[Default]), UsedName(canEqual,[Default]), UsedName(==,[Default]), UsedName(turnLeft,[Default]), UsedName(copy$default$1,[Default]), UsedName($isInstanceOf,[Default]), UsedName($asInstanceOf,[Default]), UsedName(_2,[Default]), UsedName(toString,[Default]), UsedName(copy$default$2,[Default]), UsedName(Robot$;init;,[Default]), UsedName(scala;deriving;Mirror$;Product;init;,[Default]), UsedName(productPrefix,[Default]), UsedName(getClass,[Default]), UsedName(copy,[Default]), UsedName(productElement,[Default]), UsedName(##,[Default]), UsedName(synchronized,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(hashCode,[Default]), UsedName(MirroredLabel,[Default]), UsedName(_1,[Default]), UsedName(advance,[Default]), UsedName(asInstanceOf,[Default]), UsedName(turnRight,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(Robot)[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m  > [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
 [0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
 [0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Bearing, Bearing.Robot, Robot[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Bearing, Robot[0m
 [0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m
