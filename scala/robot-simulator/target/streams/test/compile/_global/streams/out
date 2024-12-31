@@ -1,0 +1,242 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:10:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m    Robot(Bearing.North, ([31m0[0m, [31m0[0m)) should be(Robot(Bearing.North, ([31m0[0m, [31m0[0m)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:17:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m17 |[0m    Robot(Bearing.South, (-[31m1[0m, -[31m1[0m)) should be(Robot(Bearing.South, (-[31m1[0m, -[31m1[0m)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:24:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m24 |[0m    Robot(Bearing.North, ([31m0[0m, [31m0[0m)).turnRight.coordinates should be(([31m0[0m, [31m0[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:31:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m31 |[0m    Robot(Bearing.North, ([31m0[0m, [31m0[0m)).turnRight.bearing should be(Bearing.East)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:38:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m38 |[0m    Robot(Bearing.East, ([31m0[0m, [31m0[0m)).turnRight.bearing should be(Bearing.South)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:45:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m45 |[0m    Robot(Bearing.South, ([31m0[0m, [31m0[0m)).turnRight.bearing should be(Bearing.West)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:52:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m52 |[0m    Robot(Bearing.West, ([31m0[0m, [31m0[0m)).turnRight.bearing should be(Bearing.North)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:59:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m59 |[0m    Robot(Bearing.North, ([31m0[0m, [31m0[0m)).turnLeft.coordinates should be(([31m0[0m, [31m0[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:66:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m66 |[0m    Robot(Bearing.North, ([31m0[0m, [31m0[0m)).turnLeft.bearing should be(Bearing.West)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:73:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m73 |[0m    Robot(Bearing.West, ([31m0[0m, [31m0[0m)).turnLeft.bearing should be(Bearing.South)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:80:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m80 |[0m    Robot(Bearing.South, ([31m0[0m, [31m0[0m)).turnLeft.bearing should be(Bearing.East)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:87:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m87 |[0m    Robot(Bearing.East, ([31m0[0m, [31m0[0m)).turnLeft.bearing should be(Bearing.North)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:94:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m94 |[0m    Robot(Bearing.North, ([31m0[0m, [31m0[0m)).advance.bearing should be(Bearing.North)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:101:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m101 |[0m    Robot(Bearing.North, ([31m0[0m, [31m0[0m)).advance.coordinates should be(([31m0[0m, [31m1[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:108:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m108 |[0m    Robot(Bearing.South, ([31m0[0m, [31m0[0m)).advance.coordinates should be(([31m0[0m, -[31m1[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:115:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m115 |[0m    Robot(Bearing.East, ([31m0[0m, [31m0[0m)).advance.coordinates should be(([31m1[0m, [31m0[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:122:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m122 |[0m    Robot(Bearing.West, ([31m0[0m, [31m0[0m)).advance.coordinates should be((-[31m1[0m, [31m0[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:129:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m129 |[0m    Robot(Bearing.North, ([31m0[0m, [31m0[0m)).simulate([31m"LAAARALA"[0m) should be([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:138:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m138 |[0m    Robot(Bearing.East, ([31m2[0m, -[31m7[0m)).simulate([31m"RRAAAAALA"[0m) should be([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:147:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m147 |[0m    Robot(Bearing.South, ([31m8[0m, [31m4[0m)).simulate([31m"LAAARRRALLLL"[0m) should be([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Not found: Robot[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:10:33 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m10 |[0m    Robot(Bearing.North, ([31m0[0m, [31m0[0m)) should be(Robot(Bearing.North, ([31m0[0m, [31m0[0m)))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                 ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:17:35 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m17 |[0m    Robot(Bearing.South, (-[31m1[0m, -[31m1[0m)) should be(Robot(Bearing.South, (-[31m1[0m, -[31m1[0m)))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                   ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:24:55 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m24 |[0m    Robot(Bearing.North, ([31m0[0m, [31m0[0m)).turnRight.coordinates should be(([31m0[0m, [31m0[0m))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                                       ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:31:51 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m31 |[0m    Robot(Bearing.North, ([31m0[0m, [31m0[0m)).turnRight.bearing should be(Bearing.East)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                                   ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:38:50 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m38 |[0m    Robot(Bearing.East, ([31m0[0m, [31m0[0m)).turnRight.bearing should be(Bearing.South)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                                  ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:45:51 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m45 |[0m    Robot(Bearing.South, ([31m0[0m, [31m0[0m)).turnRight.bearing should be(Bearing.West)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                                   ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:52:50 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m52 |[0m    Robot(Bearing.West, ([31m0[0m, [31m0[0m)).turnRight.bearing should be(Bearing.North)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                                  ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:59:54 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m59 |[0m    Robot(Bearing.North, ([31m0[0m, [31m0[0m)).turnLeft.coordinates should be(([31m0[0m, [31m0[0m))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                                      ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:66:50 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m66 |[0m    Robot(Bearing.North, ([31m0[0m, [31m0[0m)).turnLeft.bearing should be(Bearing.West)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                                  ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:73:49 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m73 |[0m    Robot(Bearing.West, ([31m0[0m, [31m0[0m)).turnLeft.bearing should be(Bearing.South)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                                 ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:80:50 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m80 |[0m    Robot(Bearing.South, ([31m0[0m, [31m0[0m)).turnLeft.bearing should be(Bearing.East)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                                  ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:87:49 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m87 |[0m    Robot(Bearing.East, ([31m0[0m, [31m0[0m)).turnLeft.bearing should be(Bearing.North)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                                 ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:94:49 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m94 |[0m    Robot(Bearing.North, ([31m0[0m, [31m0[0m)).advance.bearing should be(Bearing.North)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                                 ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:101:53 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m101 |[0m    Robot(Bearing.North, ([31m0[0m, [31m0[0m)).advance.coordinates should be(([31m0[0m, [31m1[0m))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                                                     ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:108:53 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m108 |[0m    Robot(Bearing.South, ([31m0[0m, [31m0[0m)).advance.coordinates should be(([31m0[0m, -[31m1[0m))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                                                     ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:115:52 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m115 |[0m    Robot(Bearing.East, ([31m0[0m, [31m0[0m)).advance.coordinates should be(([31m1[0m, [31m0[0m))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                                                    ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:122:52 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m122 |[0m    Robot(Bearing.West, ([31m0[0m, [31m0[0m)).advance.coordinates should be((-[31m1[0m, [31m0[0m))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                                                    ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:129:54 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m129 |[0m    Robot(Bearing.North, ([31m0[0m, [31m0[0m)).simulate([31m"LAAARALA"[0m) should be([0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                                                      ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:138:55 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m138 |[0m    Robot(Bearing.East, ([31m2[0m, -[31m7[0m)).simulate([31m"RRAAAAALA"[0m) should be([0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                                                       ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\Work\Project\Exercism\scala\robot-simulator\src\test\scala\RobotSimulatorTest.scala:147:58 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m147 |[0m    Robot(Bearing.South, ([31m8[0m, [31m4[0m)).simulate([31m"LAAARRRALLLL"[0m) should be([0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                                                          ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mAlphanumeric method should is not declared [33minfix[0m; it should not be used as infix operator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mInstead, use method syntax .should(...) or backticked identifier `should`.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mThe latter can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m20 warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m20 errors found[0m

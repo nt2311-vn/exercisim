@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RobotSimulatorTest, org.scalatest.tools.Framework$$anon$1@15d152b0, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRobotSimulatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- A robot is created with a position and a direction - Robots are created with a position and direction[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- A robot is created with a position and a direction - Negative positions are allowed[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- rotates the robot's direction 90 degrees clockwise - does not change the position[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- rotates the robot's direction 90 degrees clockwise - changes the direction from north to east[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- rotates the robot's direction 90 degrees clockwise - changes the direction from east to south[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- rotates the robot's direction 90 degrees clockwise - changes the direction from south to west[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- rotates the robot's direction 90 degrees clockwise - changes the direction from west to north[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- rotates the robot's direction 90 degrees counter-clockwise - does not change the position[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- rotates the robot's direction 90 degrees counter-clockwise - changes the direction from north to west[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- rotates the robot's direction 90 degrees counter-clockwise - changes the direction from west to south[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- rotates the robot's direction 90 degrees counter-clockwise - changes the direction from south to east[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- rotates the robot's direction 90 degrees counter-clockwise - changes the direction from east to north[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- moves the robot forward 1 space in the direction it is pointing - does not change the direction[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- moves the robot forward 1 space in the direction it is pointing - increases the y coordinate one when facing north[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- moves the robot forward 1 space in the direction it is pointing - decreases the y coordinate by one when facing south[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- moves the robot forward 1 space in the direction it is pointing - increases the x coordinate by one when facing east[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- moves the robot forward 1 space in the direction it is pointing - decreases the x coordinate by one when facing west[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Where R = Turn Right, L = Turn Left and A = Advance, the robot can follow a series of instructions and end up with the correct position and direction - instructions to move west and north[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Where R = Turn Right, L = Turn Left and A = Advance, the robot can follow a series of instructions and end up with the correct position and direction - instructions to move west and south[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Where R = Turn Right, L = Turn Left and A = Advance, the robot can follow a series of instructions and end up with the correct position and direction - instructions to move east and north[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 363 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 20[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 20, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RobotSimulatorTest[0m
