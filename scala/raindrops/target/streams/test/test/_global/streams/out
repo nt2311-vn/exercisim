@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RaindropsTest, org.scalatest.tools.Framework$$anon$1@49d11140, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RaindropsTest, org.scalatest.tools.Framework$$anon$1@59926b95, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mRaindropsTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- the sound for 1 is 1[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- the sound for 3 is Pling[0m[0m
@@ -18,7 +18,7 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- the sound for 52 is 52[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- the sound for 105 is PlingPlangPlong as it has factors 3, 5 and 7[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- the sound for 3125 is Plang as it has a factor 5[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 365 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 370 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 18[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 18, failed 0, canceled 0, ignored 0, pending 0[0m[0m
