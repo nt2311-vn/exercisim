@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SumOfMultiplesTest, org.scalatest.tools.Framework$$anon$1@a985a0c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SumOfMultiplesTest, org.scalatest.tools.Framework$$anon$1@55e456f3, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSumOfMultiplesTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- multiples of 3 or 5 up to 1[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- multiples of 3 or 5 up to 4[0m[0m
@@ -13,7 +13,7 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- multiples of 43 or 47 up to 10000[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- multiples of 1 up to 100[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- multiples of an empty list up to 10000[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 404 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 338 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 13[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 13, failed 0, canceled 0, ignored 0, pending 0[0m[0m
