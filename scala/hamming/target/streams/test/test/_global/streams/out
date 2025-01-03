@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(HammingTest, org.scalatest.tools.Framework$$anon$1@2586c71a, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(HammingTest, org.scalatest.tools.Framework$$anon$1@73e06b02, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mHammingTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- empty strands[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- identical strands[0m[0m
@@ -15,7 +15,7 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- large distance in off-by-one strand[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- disallow first strand longer[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- disallow second strand longer[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 392 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 457 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 15[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 15, failed 0, canceled 0, ignored 0, pending 0[0m[0m
