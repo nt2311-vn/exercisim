@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(CollatzConjectureTest, org.scalatest.tools.Framework$$anon$1@70fea45a, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(CollatzConjectureTest, org.scalatest.tools.Framework$$anon$1@77a9910b, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mCollatzConjectureTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- zero steps for one[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- divide if even[0m[0m
@@ -6,7 +6,7 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- Large number of even and odd steps[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- zero is an error[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- negative value is an error[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 309 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 338 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0[0m[0m
