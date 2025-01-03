@@ -3093,3 +3093,225 @@ java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) re
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025.01.03 13:44:41 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Work\Project\Exercism\.metals\lsp.trace.json[0m
+2025.01.03 13:44:43 INFO  logging to files D:\Work\Project\Exercism\.metals\metals.log[0m
+2025.01.03 13:44:43 INFO  Started: Metals version 1.4.2 in folders 'D:\Work\Project\Exercism' for client Neovim 0.10.1+g7e194f0d0.[0m
+2025.01.03 13:44:44 INFO  Attempting to connect to the build server...[0m
+2025.01.03 13:44:44 INFO  Running BSP server List(C:\Users\NguyenToan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\Work\Project\Exercism\.scala-build\ide-options-v2.json, --json-launcher-options, D:\Work\Project\Exercism\.scala-build\ide-launcher-options.json, --envs-file, D:\Work\Project\Exercism\.scala-build\ide-envs.json, D:\Work\Project\Exercism)[0m
+2025.01.03 13:44:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Work\Project\Exercism\.metals\bsp.trace.json[0m
+2025.01.03 13:44:51 INFO  BSP server: Starting compilation server[0m
+2025.01.03 13:44:56 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\test\scala\RobotNameTest.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:44:58 INFO  time: Connected to build server in 13s[0m
+2025.01.03 13:44:58 INFO  Connected to Build server: scala-cli v1.5.4[0m
+2025.01.03 13:44:58 INFO  time: Imported build in 0.14s[0m
+2025.01.03 13:44:58 INFO  running doctor check[0m
+2025.01.03 13:44:58 INFO  java targets: Exercism_9e528805c5, Exercism_9e528805c5-test[0m
+2025.01.03 13:44:58 WARN  Unable to run doctor. Make sure `isHttpEnabled` is set to `true`.[0m
+2025.01.03 13:44:59 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:44:59 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 6.656s)[0m
+2025.01.03 13:44:59 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:45:03 INFO  time: indexed workspace in 5.79s[0m
+2025.01.03 13:45:05 INFO  time: compiled Exercism_9e528805c5 in 5.38s[0m
+2025.01.03 13:45:05 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 12.203s)[0m
+2025.01.03 13:45:05 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:45:05 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:45:06 INFO  time: compiled Exercism_9e528805c5 in 1.28s[0m
+2025.01.03 13:45:06 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:45:07 INFO  time: compiled Exercism_9e528805c5 in 0.59s[0m
+2025.01.03 13:45:07 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:45:07 INFO  time: compiled Exercism_9e528805c5 in 0.42s[0m
+2025.01.03 13:45:08 INFO  Selected port 5031[0m
+Jan 03, 2025 1:45:08 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.20.Final
+Jan 03, 2025 1:45:09 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.16.Final
+Jan 03, 2025 1:45:09 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.16.Final
+Jan 03, 2025 1:45:09 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2025.01.03 13:45:08 INFO  Started Metals http server at http://127.0.0.1:5031[0m
+2025.01.03 13:45:10 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:45:10 INFO  time: compiled Exercism_9e528805c5 in 0.37s[0m
+2025.01.03 13:45:11 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:45:11 INFO  time: compiled Exercism_9e528805c5 in 0.42s[0m
+2025.01.03 13:45:49 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:45:49 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 56.299s)[0m
+2025.01.03 13:45:49 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:45:49 INFO  time: compiled Exercism_9e528805c5 in 0.39s[0m
+2025.01.03 13:45:49 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:45:50 INFO  time: compiled Exercism_9e528805c5 in 0.72s[0m
+2025.01.03 13:45:50 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:45:50 INFO  time: compiled Exercism_9e528805c5 in 0.48s[0m
+2025.01.03 13:45:52 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:45:52 INFO  Shutting down server[0m
+2025.01.03 13:45:52 INFO  shutting down Metals[0m
+2025.01.03 13:45:52 INFO  Shut down connection with build server.[0m
+2025.01.03 13:45:52 INFO  Cancelling compilation on scala-cli server[0m
+Jan 03, 2025 1:45:52 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.20.Final
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@17d677df[Shutting down, pool size = 5, active threads = 5, queued tasks = 0, completed tasks = 1010]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2082)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1377)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@17d677df[Shutting down, pool size = 5, active threads = 5, queued tasks = 0, completed tasks = 1010]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2082)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1377)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@17d677df[Shutting down, pool size = 5, active threads = 5, queued tasks = 0, completed tasks = 1010]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2082)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1377)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025.01.03 13:45:57 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Work\Project\Exercism\.metals\lsp.trace.json[0m
+2025.01.03 13:45:59 INFO  logging to files D:\Work\Project\Exercism\.metals\metals.log[0m
+2025.01.03 13:45:59 INFO  Started: Metals version 1.4.2 in folders 'D:\Work\Project\Exercism' for client Neovim 0.10.1+g7e194f0d0.[0m
+2025.01.03 13:46:03 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:46:04 INFO  Attempting to connect to the build server...[0m
+2025.01.03 13:46:04 INFO  Running BSP server List(C:\Users\NguyenToan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\Work\Project\Exercism\.scala-build\ide-options-v2.json, --json-launcher-options, D:\Work\Project\Exercism\.scala-build\ide-launcher-options.json, --envs-file, D:\Work\Project\Exercism\.scala-build\ide-envs.json, D:\Work\Project\Exercism)[0m
+2025.01.03 13:46:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Work\Project\Exercism\.metals\bsp.trace.json[0m
+2025.01.03 13:46:05 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:46:05 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:46:05 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:46:05 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:46:05 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:46:05 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:46:05 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:46:05 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:46:05 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:46:06 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:46:06 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:46:06 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:46:06 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:46:06 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:46:10 WARN  no build target for: D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala[0m
+2025.01.03 13:46:10 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:46:12 INFO  time: Connected to build server in 8.4s[0m
+2025.01.03 13:46:12 INFO  Connected to Build server: scala-cli v1.5.4[0m
+2025.01.03 13:46:12 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:46:12 INFO  no build target found for D:\Work\Project\Exercism\scala\robot-name\src\main\scala\RobotName.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.01.03 13:46:12 INFO  running doctor check[0m
+2025.01.03 13:46:12 INFO  java targets: Exercism_9e528805c5, Exercism_9e528805c5-test[0m
+2025.01.03 13:46:12 WARN  Unable to run doctor. Make sure `isHttpEnabled` is set to `true`.[0m
+2025.01.03 13:46:14 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:46:14 INFO  time: compiled Exercism_9e528805c5 in 0.49s[0m
+2025.01.03 13:46:14 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:46:14 INFO  time: compiled Exercism_9e528805c5 in 0.38s[0m
+2025.01.03 13:46:18 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:46:18 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 11.558s)[0m
+2025.01.03 13:46:18 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:46:18 INFO  time: indexed workspace in 5.8s[0m
+2025.01.03 13:46:18 INFO  time: compiled Exercism_9e528805c5 in 0.97s[0m
+2025.01.03 13:46:19 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:46:19 INFO  time: compiled Exercism_9e528805c5 in 0.68s[0m
+2025.01.03 13:46:20 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:46:20 INFO  time: compiled Exercism_9e528805c5 in 0.25s[0m
+2025.01.03 13:46:20 INFO  Selected port 5031[0m
+Jan 03, 2025 1:46:20 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.20.Final
+Jan 03, 2025 1:46:20 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.16.Final
+Jan 03, 2025 1:46:21 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.16.Final
+Jan 03, 2025 1:46:21 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2025.01.03 13:46:20 INFO  Started Metals http server at http://127.0.0.1:5031[0m
+2025.01.03 13:46:21 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:46:21 INFO  time: compiled Exercism_9e528805c5 in 0.23s[0m
+2025.01.03 13:46:22 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:46:22 INFO  time: compiled Exercism_9e528805c5 in 0.22s[0m
+2025.01.03 13:47:09 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:47:09 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 1m 2.954s)[0m
+2025.01.03 13:47:09 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:47:09 INFO  time: compiled Exercism_9e528805c5 in 0.56s[0m
+2025.01.03 13:47:09 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:47:10 INFO  time: compiled Exercism_9e528805c5 in 0.43s[0m
+2025.01.03 13:47:10 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:47:10 INFO  time: compiled Exercism_9e528805c5 in 0.33s[0m
+2025.01.03 13:49:09 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:49:09 INFO  time: compiled Exercism_9e528805c5 in 0.28s[0m
+2025.01.03 13:49:14 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:49:14 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 3m 7.612s)[0m
+2025.01.03 13:49:14 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:49:14 INFO  time: compiled Exercism_9e528805c5 in 0.15s[0m
+2025.01.03 13:49:14 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:49:14 INFO  time: compiled Exercism_9e528805c5 in 0.3s[0m
+2025.01.03 13:49:15 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:49:15 INFO  time: compiled Exercism_9e528805c5 in 0.21s[0m
+2025.01.03 13:49:32 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:49:32 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 3m 25.548s)[0m
+2025.01.03 13:49:32 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:49:32 INFO  time: compiled Exercism_9e528805c5 in 0.16s[0m
+2025.01.03 13:49:32 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:49:32 INFO  time: compiled Exercism_9e528805c5 in 0.27s[0m
+2025.01.03 13:49:33 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:49:33 INFO  time: compiled Exercism_9e528805c5 in 0.16s[0m
+2025.01.03 13:51:02 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:51:02 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 4m 55.85s)[0m
+2025.01.03 13:51:02 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:51:02 INFO  time: compiled Exercism_9e528805c5 in 0.63s[0m
+2025.01.03 13:51:02 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:51:04 INFO  time: compiled Exercism_9e528805c5 in 0.79s[0m
+2025.01.03 13:51:04 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:51:04 INFO  time: compiled Exercism_9e528805c5 in 0.42s[0m
+2025.01.03 13:51:16 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:51:16 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 5m 9.56s)[0m
+2025.01.03 13:51:16 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:51:16 INFO  time: compiled Exercism_9e528805c5 in 0.16s[0m
+2025.01.03 13:51:16 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:51:16 INFO  time: compiled Exercism_9e528805c5 in 0.22s[0m
+2025.01.03 13:51:17 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:51:17 INFO  time: compiled Exercism_9e528805c5 in 0.2s[0m
+2025.01.03 13:51:23 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:51:23 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 5m 17.245s)[0m
+2025.01.03 13:51:23 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:51:23 INFO  time: compiled Exercism_9e528805c5 in 0.13s[0m
+2025.01.03 13:51:23 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:51:23 INFO  time: compiled Exercism_9e528805c5 in 0.2s[0m
+2025.01.03 13:51:25 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:51:25 INFO  time: compiled Exercism_9e528805c5 in 0.16s[0m
+2025.01.03 13:53:00 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:53:00 INFO  Deduplicating compilation of Exercism_9e528805c5 from bsp client 'scala-cli 1.5.4' (since 6m 53.921s)[0m
+2025.01.03 13:53:00 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:53:00 INFO  time: compiled Exercism_9e528805c5 in 0.21s[0m
+2025.01.03 13:53:00 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:53:00 INFO  time: compiled Exercism_9e528805c5 in 0.2s[0m
+2025.01.03 13:53:01 INFO  compiling exercism_9e528805c5 (12 scala sources and 11 java sources)[0m
+2025.01.03 13:53:01 INFO  time: compiled Exercism_9e528805c5 in 0.19s[0m

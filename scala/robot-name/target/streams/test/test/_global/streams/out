@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RobotNameTest, org.scalatest.tools.Framework$$anon$1@4e1d8cda, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRobotNameTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- has a name[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- does not change its name[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- does not have the same name as other robots[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- can have its name reset[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- a large number of new instances have unique names !!! IGNORED !!![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 364 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 4, failed 0, canceled 0, ignored 1, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RobotNameTest[0m
