@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(HammingTest, org.scalatest.tools.Framework$$anon$1@2586c71a, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHammingTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- empty strands[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- identical strands[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- long identical strands[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- complete distance in single nucleotide strands[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- complete distance in small strands[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- small distance in small strands[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- small distance[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- small distance in long strands[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- non-unique character in first strand[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- non-unique character in second strand[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- same nucleotides in different positions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- large distance[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- large distance in off-by-one strand[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- disallow first strand longer[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- disallow second strand longer[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 392 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 15[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 15, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HammingTest[0m

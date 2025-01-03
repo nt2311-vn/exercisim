@@ -1,0 +1,31 @@
+{
+  "authors": [
+    "sgrif"
+  ],
+  "contributors": [
+    "abo64",
+    "ErikSchierboom",
+    "kytrinyx",
+    "nlochschmidt",
+    "ppartarr",
+    "rajeshpg",
+    "ricemery"
+  ],
+  "files": {
+    "solution": [
+      "src/main/scala/Hamming.scala"
+    ],
+    "test": [
+      "src/test/scala/HammingTest.scala"
+    ],
+    "example": [
+      ".meta/Example.scala"
+    ],
+    "invalidator": [
+      "build.sbt"
+    ]
+  },
+  "blurb": "Calculate the Hamming difference between two DNA strands.",
+  "source": "The Calculating Point Mutations problem at Rosalind",
+  "source_url": "https://rosalind.info/problems/hamm/"
+}
