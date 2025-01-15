@@ -1,0 +1,20 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SecretHandshakeTest, org.scalatest.tools.Framework$$anon$1@55c1c4e7, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecretHandshakeTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- wink for 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- double blink for 10[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- close your eyes for 100[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- jump for 1000[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- combine two actions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- reverse two actions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- reversing one action gives the same action[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- reversing no actions still gives no actions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- all possible actions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- reverse all possible actions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- do nothing for zero[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 228 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 11[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 11, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SecretHandshakeTest[0m
