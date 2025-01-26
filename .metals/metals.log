@@ -4131,3 +4131,49 @@ java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) re
 2025.01.25 21:54:18 INFO  Attempting to connect to the build server...[0m
 2025.01.25 21:54:18 INFO  Running BSP server List(C:\Users\NguyenToan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\Work\Project\Exercism\.scala-build\ide-options-v2.json, --json-launcher-options, D:\Work\Project\Exercism\.scala-build\ide-launcher-options.json, --envs-file, D:\Work\Project\Exercism\.scala-build\ide-envs.json, D:\Work\Project\Exercism)[0m
 2025.01.25 21:54:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Work\Project\Exercism\.metals\bsp.trace.json[0m
+2025.01.25 21:54:29 INFO  BSP server: Starting compilation server[0m
+2025.01.25 21:54:40 INFO  time: Connected to build server in 21s[0m
+2025.01.25 21:54:40 INFO  Connected to Build server: scala-cli v1.5.4[0m
+2025.01.25 21:54:40 INFO  time: Imported build in 0.23s[0m
+2025.01.25 21:54:40 INFO  running doctor check[0m
+2025.01.25 21:54:40 INFO  java targets: Exercism_9e528805c5, Exercism_9e528805c5-test[0m
+2025.01.25 21:54:40 WARN  Unable to run doctor. Make sure `isHttpEnabled` is set to `true`.[0m
+2025.01.25 21:54:42 INFO  compiling exercism_9e528805c5 (16 scala sources and 11 java sources)[0m
+2025.01.25 21:54:44 INFO  time: indexed workspace in 5.12s[0m
+2025.01.25 21:54:45 INFO  Selected port 5031[0m
+Jan 25, 2025 9:54:45 PM io.undertow.Undertow start
+INFO: starting server: Undertow - 2.2.20.Final
+Jan 25, 2025 9:54:45 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.16.Final
+Jan 25, 2025 9:54:45 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.16.Final
+Jan 25, 2025 9:54:46 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 3.1.0.Final
+2025.01.25 21:54:45 INFO  Started Metals http server at http://127.0.0.1:5031[0m
+2025.01.25 21:54:48 INFO  time: compiled Exercism_9e528805c5 in 5.84s[0m
+2025.01.25 21:54:48 INFO  compiling exercism_9e528805c5 (16 scala sources and 11 java sources)[0m
+2025.01.25 21:54:49 INFO  time: compiled Exercism_9e528805c5 in 1.32s[0m
+2025.01.25 21:54:51 INFO  compiling exercism_9e528805c5 (16 scala sources and 11 java sources)[0m
+2025.01.25 21:54:51 INFO  time: compiled Exercism_9e528805c5 in 0.95s[0m
+2025.01.25 21:55:23 INFO  Shutting down server[0m
+2025.01.25 21:55:23 INFO  shutting down Metals[0m
+2025.01.25 21:55:23 INFO  Shut down connection with build server.[0m
+Jan 25, 2025 9:55:23 PM io.undertow.Undertow stop
+INFO: stopping server: Undertow - 2.2.20.Final
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@17d677df[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 313]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2082)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1377)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
