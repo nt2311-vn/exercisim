@@ -27,6 +27,7 @@ defmodule SecretHandshake do
         acc
       end
     end)
+    |> Enum.reverse()
   end
 
   defp add_action(0, acc), do: ["wink" | acc]
