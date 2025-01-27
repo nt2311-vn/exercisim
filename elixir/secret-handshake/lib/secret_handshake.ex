@@ -14,30 +14,25 @@ defmodule SecretHandshake do
   10000 = Reverse the order of the operations in the secret handshake
   """
   @spec commands(code :: integer) :: list(String.t())
-  def commands(0), do: []
 
   def commands(code) do
-    binary_str = Integer.to_string(code, 2) |> String.reverse()
-
-    result =
-      []
-      |> add_action(binary_str, 0, "wink")
-      |> add_action(binary_str, 1, "double blink")
-      |> add_action(binary_str, 2, "close your eyes")
-      |> add_action(binary_str, 3, "jump")
-
-    if String.length(binary_str) >= 5 and String.at(binary_str, 4) == "1" do
-      result
-    else
-      Enum.reverse(result)
-    end
+    code
+    |> Integer.digits(2)
+    |> Enum.reverse()
+    |> Enum.with_index()
+    |> Enum.reduce([], fn {bit, index}, acc ->
+      if bit == 1 do
+        add_action(index, acc)
+      else
+        acc
+      end
+    end)
   end
 
-  defp add_action(result, binary_str, position, action) do
-    if String.length(binary_str) > position and String.at(binary_str, position) == "1" do
-      [action | result]
-    else
-      result
-    end
-  end
+  defp add_action(0, acc), do: ["wink" | acc]
+  defp add_action(1, acc), do: ["double blink" | acc]
+  defp add_action(2, acc), do: ["close your eyes" | acc]
+  defp add_action(3, acc), do: ["jump" | acc]
+  defp add_action(4, acc), do: Enum.reverse(acc)
+  defp add_action(_, acc), do: acc
 end
