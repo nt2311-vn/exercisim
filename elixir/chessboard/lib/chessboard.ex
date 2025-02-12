@@ -12,6 +12,6 @@ defmodule Chessboard do
   end
 
   def files do
-    file_range() |> Enum.map(fn x -> <<x>> end)
+    file_range() |> Enum.map(&<<&1>>)
   end
 end

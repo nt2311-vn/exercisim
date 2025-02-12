@@ -2568,3 +2568,23 @@
 13:59:58.227 [debug] handled notification client -> server textDocument/didOpen in 9ms
 
 13:59:58.431 [debug] sent notification server -> client $/progress
+
+14:03:51.215 id=2 [debug] handled request client -> server shutdown in 2ms
+
+14:03:55.359 [info] Loading 76 CA(s) from :otp store
+
+14:03:55.725 id=1 [debug] handled request client -> server initialize in 186ms
+
+14:03:55.735 [debug] sent notification server -> client window/logMessage
+
+14:03:55.740 [debug] NextLS v0.23.3 has initialized!
+
+14:03:55.740 [debug] sent notification server -> client window/logMessage
+
+14:03:55.740 [debug] Log file located at d:/Work/Project/Exercism/elixir/chessboard/.elixir-tools/next-ls.log
+
+14:03:55.741 [debug] sent notification server -> client window/logMessage
+
+14:03:55.741 id=40 [debug] sent request server -> client client/registerCapability
+
+14:03:55.741 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
