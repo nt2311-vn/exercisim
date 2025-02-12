@@ -8221,3 +8221,710 @@
 17:48:26.273 [debug] sent notification server -> client window/logMessage
 
 17:48:26.281 [debug] handled notification client -> server textDocument/didOpen in 9ms
+
+17:48:39.795 id=2 [debug] handled request client -> server shutdown in 2ms
+
+17:48:55.670 [info] Loading 76 CA(s) from :otp store
+
+17:48:56.025 id=1 [debug] handled request client -> server initialize in 166ms
+
+17:48:56.035 [debug] sent notification server -> client window/logMessage
+
+17:48:56.035 [debug] NextLS v0.23.3 has initialized!
+
+17:48:56.035 [debug] sent notification server -> client window/logMessage
+
+17:48:56.035 [debug] Log file located at d:/Work/Project/Exercism/elixir/boutique-suggestions/.elixir-tools/next-ls.log
+
+17:48:56.035 [debug] sent notification server -> client window/logMessage
+
+17:48:56.035 id=67 [debug] sent request server -> client client/registerCapability
+
+17:48:56.035 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+17:49:04.008 [debug] sent notification server -> client window/logMessage
+
+17:49:04.008 [debug] Booting runtimes...
+
+17:49:04.019 id=2 [debug] sent request server -> client window/workDoneProgress/create
+
+17:49:04.030 [debug] sent notification server -> client $/progress
+
+17:49:04.038 [error] ** (MatchError) no match of right hand side value: {:error, {%File.Error{reason: :enoent, path: "/d:/Work/Project/Exercism/elixir/boutique-suggestions/.elixir-tools", action: "make directory (with -p)"}, [{File, :mkdir_p!, 1, [file: ~c"lib/file.ex", line: 346]}, {NextLS.Runtime.Supervisor, :init, 1, [file: ~c"lib/next_ls/runtime/supervisor.ex", line: 18]}, {:supervisor, :init, 1, [file: ~c"supervisor.erl", line: 869]}, {:gen_server, :init_it, 2, [file: ~c"gen_server.erl", line: 2229]}, {:gen_server, :init_it, 6, [file: ~c"gen_server.erl", line: 2184]}, {:proc_lib, :init_p_do_apply, 3, [file: ~c"proc_lib.erl", line: 329]}]}}
+    (next_ls 0.23.3) lib/next_ls.ex:899: anonymous fn/5 in NextLS.handle_notification/2
+    (elixir 1.17.3) lib/enum.ex:2531: Enum."-reduce/3-lists^foldl/2-0-"/3
+    (next_ls 0.23.3) lib/next_ls.ex:894: NextLS.handle_notification/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:478: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:474: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:04.039 [debug] sent notification server -> client window/logMessage
+
+17:49:04.042 [debug] handled notification client -> server textDocument/didOpen in 3ms
+
+17:49:04.049 [debug] handled notification client -> server textDocument/didChange in 7ms
+
+17:49:04.050 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:04.050 [debug] handled notification client -> server textDocument/didChange in 103µs
+
+17:49:04.050 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:04.050 [debug] handled notification client -> server textDocument/didChange in 103µs
+
+17:49:04.050 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:04.054 [debug] handled notification client -> server textDocument/didSave in 3ms
+
+17:49:05.074 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 1019ms
+
+17:49:05.074 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+17:49:05.074 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:05.074 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:06.107 [debug] sent notification server -> client window/logMessage
+
+17:49:06.107 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:06.119 id=2 [debug] handled request client -> server textDocument/completion in 1044ms
+
+17:49:06.119 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:06.122 [debug] handled notification client -> server $/cancelRequest in 3ms
+
+17:49:06.122 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:07.127 id=3 [debug] handled request client -> server textDocument/completion in 1004ms
+
+17:49:07.127 [debug] sent notification server -> client window/logMessage
+
+17:49:07.127 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:07.559 [debug] handled notification client -> server textDocument/didSave in 205µs
+
+17:49:07.674 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 307µs
+
+17:49:08.416 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:09.542 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:10.556 [debug] sent notification server -> client window/logMessage
+
+17:49:10.556 id=4 [debug] handled request client -> server textDocument/completion in 1009ms
+
+17:49:10.556 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:10.556 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:10.556 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:10.626 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:10.773 [debug] handled notification client -> server textDocument/didChange in 103µs
+
+17:49:12.426 [debug] handled notification client -> server textDocument/didChange in 409µs
+
+17:49:13.435 [debug] sent notification server -> client window/logMessage
+
+17:49:13.435 id=5 [debug] handled request client -> server textDocument/completion in 1006ms
+
+17:49:13.435 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:13.436 [debug] handled notification client -> server textDocument/didChange in 512µs
+
+17:49:13.436 [debug] handled notification client -> server textDocument/didChange in 103µs
+
+17:49:13.436 [debug] handled notification client -> server textDocument/didChange in 0µs
+
+17:49:13.436 [debug] handled notification client -> server $/cancelRequest in 0µs
+
+17:49:13.436 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:14.445 [debug] sent notification server -> client window/logMessage
+
+17:49:14.445 id=6 [debug] handled request client -> server textDocument/completion in 1008ms
+
+17:49:14.445 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:14.445 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:14.446 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:14.446 [debug] handled notification client -> server textDocument/didChange in 103µs
+
+17:49:15.500 [debug] handled notification client -> server textDocument/didChange in 614µs
+
+17:49:15.906 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:16.918 [debug] sent notification server -> client window/logMessage
+
+17:49:16.918 id=7 [debug] handled request client -> server textDocument/completion in 1007ms
+
+17:49:16.919 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:16.919 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:16.919 [debug] handled notification client -> server textDocument/didChange in 103µs
+
+17:49:16.919 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:20.787 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:21.184 [debug] handled notification client -> server textDocument/didChange in 410µs
+
+17:49:21.365 [debug] handled notification client -> server textDocument/didChange in 204µs
+
+17:49:22.378 [debug] sent notification server -> client window/logMessage
+
+17:49:22.378 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:22.378 id=8 [debug] handled request client -> server textDocument/completion in 1006ms
+
+17:49:22.378 [debug] handled notification client -> server textDocument/didChange in 512µs
+
+17:49:22.379 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+17:49:22.379 [debug] handled notification client -> server textDocument/didChange in 409µs
+
+17:49:22.379 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:22.380 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:23.466 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:24.346 [debug] handled notification client -> server textDocument/didChange in 409µs
+
+17:49:24.567 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:25.587 id=9 [debug] handled request client -> server textDocument/completion in 1014ms
+
+17:49:25.587 [debug] sent notification server -> client window/logMessage
+
+17:49:25.587 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:25.587 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:25.587 [debug] handled notification client -> server $/cancelRequest in 0µs
+
+17:49:25.587 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:26.591 [debug] sent notification server -> client window/logMessage
+
+17:49:26.591 id=10 [debug] handled request client -> server textDocument/completion in 1003ms
+
+17:49:26.591 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:26.591 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:26.591 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:26.591 [debug] handled notification client -> server textDocument/didChange in 0µs
+
+17:49:26.591 [debug] handled notification client -> server textDocument/didChange in 0µs
+
+17:49:26.591 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:29.456 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:29.737 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:31.211 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:32.219 [debug] sent notification server -> client window/logMessage
+
+17:49:32.219 id=11 [debug] handled request client -> server textDocument/completion in 1004ms
+
+17:49:32.220 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:32.220 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+17:49:32.421 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:32.925 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:33.934 id=12 [debug] handled request client -> server textDocument/completion in 1005ms
+
+17:49:33.934 [debug] sent notification server -> client window/logMessage
+
+17:49:33.934 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:33.934 [debug] handled notification client -> server textDocument/didChange in 103µs
+
+17:49:33.934 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:33.934 [debug] handled notification client -> server textDocument/didChange in 0µs
+
+17:49:34.566 [debug] handled notification client -> server textDocument/didChange in 204µs
+
+17:49:35.588 [debug] sent notification server -> client window/logMessage
+
+17:49:35.588 id=13 [debug] handled request client -> server textDocument/completion in 1015ms
+
+17:49:35.588 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:35.589 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+17:49:35.589 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:35.589 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:35.589 [debug] handled notification client -> server textDocument/didChange in 103µs
+
+17:49:35.698 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:35.854 [debug] handled notification client -> server textDocument/didChange in 204µs
+
+17:49:36.007 [debug] handled notification client -> server textDocument/didChange in 204µs
+
+17:49:36.916 [debug] handled notification client -> server textDocument/didChange in 410µs
+
+17:49:37.929 [debug] sent notification server -> client window/logMessage
+
+17:49:37.929 id=14 [debug] handled request client -> server textDocument/completion in 1009ms
+
+17:49:37.929 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:37.929 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:38.710 [debug] handled notification client -> server textDocument/didChange in 204µs
+
+17:49:39.044 [debug] handled notification client -> server textDocument/didChange in 512µs
+
+17:49:40.058 [debug] sent notification server -> client window/logMessage
+
+17:49:40.058 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:40.058 id=15 [debug] handled request client -> server textDocument/completion in 1011ms
+
+17:49:40.058 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:40.058 [debug] handled notification client -> server $/cancelRequest in 103µs
+
+17:49:40.059 [debug] handled notification client -> server textDocument/didChange in 204µs
+
+17:49:41.069 id=16 [debug] handled request client -> server textDocument/completion in 1009ms
+
+17:49:41.069 [debug] sent notification server -> client window/logMessage
+
+17:49:41.069 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:41.070 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:41.070 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:41.070 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:41.070 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:41.165 [debug] handled notification client -> server textDocument/didChange in 204µs
+
+17:49:41.280 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:42.290 [debug] sent notification server -> client window/logMessage
+
+17:49:42.290 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:42.290 id=17 [debug] handled request client -> server textDocument/completion in 1010ms
+
+17:49:42.291 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:42.291 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:42.291 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:42.292 [debug] handled notification client -> server textDocument/didChange in 614µs
+
+17:49:42.520 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:42.682 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:43.215 [debug] handled notification client -> server textDocument/didChange in 615µs
+
+17:49:43.617 [debug] handled notification client -> server textDocument/didChange in 512µs
+
+17:49:44.636 [debug] sent notification server -> client window/logMessage
+
+17:49:44.636 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:44.636 id=18 [debug] handled request client -> server textDocument/completion in 1016ms
+
+17:49:44.636 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:44.636 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:46.370 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:46.522 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:46.960 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:47.976 [debug] sent notification server -> client window/logMessage
+
+17:49:47.976 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:47.976 id=19 [debug] handled request client -> server textDocument/completion in 1013ms
+
+17:49:47.976 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+17:49:47.977 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:47.977 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:47.977 [debug] handled notification client -> server $/cancelRequest in 0µs
+
+17:49:48.990 [debug] sent notification server -> client window/logMessage
+
+17:49:48.990 id=20 [debug] handled request client -> server textDocument/completion in 1012ms
+
+17:49:48.990 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:48.990 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:48.990 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:48.990 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:48.991 [debug] handled notification client -> server textDocument/didChange in 204µs
+
+17:49:49.391 [debug] handled notification client -> server textDocument/didChange in 512µs
+
+17:49:49.553 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:50.560 [debug] sent notification server -> client window/logMessage
+
+17:49:50.560 id=21 [debug] handled request client -> server textDocument/completion in 1003ms
+
+17:49:50.560 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:50.561 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:50.631 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:50.781 [debug] handled notification client -> server textDocument/didChange in 204µs
+
+17:49:50.989 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:52.011 [debug] sent notification server -> client window/logMessage
+
+17:49:52.011 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:52.011 id=22 [debug] handled request client -> server textDocument/completion in 1017ms
+
+17:49:52.012 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+17:49:52.869 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:53.019 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+17:49:53.203 [debug] handled notification client -> server textDocument/didChange in 512µs
+
+17:49:54.211 [debug] sent notification server -> client window/logMessage
+
+17:49:54.211 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:54.211 id=23 [debug] handled request client -> server textDocument/completion in 1005ms
+
+17:49:54.211 [debug] handled notification client -> server textDocument/didChange in 204µs
+
+17:49:54.211 [debug] handled notification client -> server textDocument/didChange in 103µs
+
+17:49:54.212 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:54.212 [debug] handled notification client -> server textDocument/didChange in 204µs
+
+17:49:54.359 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:55.375 id=24 [debug] handled request client -> server textDocument/completion in 1017ms
+
+17:49:55.375 [debug] sent notification server -> client window/logMessage
+
+17:49:55.376 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:55.376 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:49:55.376 [debug] handled notification client -> server textDocument/didChange in 0µs
+
+17:49:55.376 [debug] handled notification client -> server textDocument/didChange in 0µs
+
+17:49:55.376 [debug] handled notification client -> server textDocument/didChange in 0µs
+
+17:49:55.454 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+17:49:57.727 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+17:49:57.959 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:58.278 [debug] handled notification client -> server textDocument/didChange in 512µs
+
+17:49:58.599 [debug] handled notification client -> server textDocument/didChange in 409µs
+
+17:49:58.761 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:49:59.782 [debug] sent notification server -> client window/logMessage
+
+17:49:59.783 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:49:59.782 id=25 [debug] handled request client -> server textDocument/completion in 1015ms
+
+17:49:59.783 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:49:59.783 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:50:00.152 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:50:00.315 [debug] handled notification client -> server textDocument/didChange in 614µs
+
+17:50:00.468 [debug] handled notification client -> server textDocument/didChange in 103µs
+
+17:50:01.646 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:50:02.035 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+17:50:02.039 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:50:03.051 id=26 [debug] handled request client -> server textDocument/completion in 1012ms
+
+17:50:03.051 [debug] sent notification server -> client window/logMessage
+
+17:50:03.052 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:50:03.052 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:50:03.052 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:50:03.052 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:50:03.162 [debug] handled notification client -> server textDocument/didChange in 103µs
+
+17:50:03.545 [debug] handled notification client -> server textDocument/didChange in 512µs
+
+17:50:03.732 [debug] handled notification client -> server textDocument/didChange in 308µs
+
+17:50:04.742 [debug] sent notification server -> client window/logMessage
+
+17:50:04.742 id=27 [debug] handled request client -> server textDocument/completion in 1007ms
+
+17:50:04.743 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: :timeout
+    (next_ls 0.23.3) lib/next_ls.ex:631: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:349: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+17:50:04.743 [debug] handled notification client -> server textDocument/didChange in 102µs
+
+17:50:04.743 [debug] handled notification client -> server textDocument/didChange in 204µs
+
+17:50:05.022 [debug] handled notification client -> server textDocument/didChange in 409µs
+
+17:50:05.181 [debug] handled notification client -> server textDocument/didChange in 205µs
+
+17:50:05.340 [debug] handled notification client -> server textDocument/didChange in 307µs
+
+17:50:06.729 [debug] handled notification client -> server textDocument/didChange in 204µs
+
+17:50:06.740 [debug] handled notification client -> server textDocument/didSave in 205µs
+
+17:50:07.847 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 1009ms
+
+17:50:11.619 id=28 [debug] handled request client -> server shutdown in 2ms
+
+17:50:18.231 [info] Loading 76 CA(s) from :otp store
+
+17:50:18.946 id=1 [debug] handled request client -> server initialize in 483ms
+
+17:50:18.967 [debug] sent notification server -> client window/logMessage
+
+17:50:18.974 [debug] NextLS v0.23.3 has initialized!
+
+17:50:18.974 [debug] sent notification server -> client window/logMessage
+
+17:50:18.974 [debug] Log file located at d:/Work/Project/Exercism/elixir/boutique-suggestions/.elixir-tools/next-ls.log
+
+17:50:18.975 [debug] sent notification server -> client window/logMessage
+
+17:50:18.975 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+17:50:18.975 id=8 [debug] sent request server -> client client/registerCapability
