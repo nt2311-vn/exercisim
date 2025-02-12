@@ -21,25 +21,12 @@ defmodule RemoteControlCar do
   def display_battery(%RemoteControlCar{battery_percentage: percent}),
     do: "Battery at #{percent}%"
 
-  def drive(%RemoteControlCar{
-        nickname: name,
-        battery_percentage: percent,
-        distance_driven_in_meters: traveled_meters
-      }) do
-    case percent do
-      0 ->
-        %RemoteControlCar{
-          nickname: name,
-          battery_percentage: percent,
-          distance_driven_in_meters: traveled_meters
-        }
+  def drive(%RemoteControlCar{battery_percentage: 0} = remote_car), do: remote_car
 
-      _ ->
-        %RemoteControlCar{
-          nickname: name,
-          battery_percentage: percent - 1,
-          distance_driven_in_meters: traveled_meters + 20
-        }
-    end
-  end
+  def drive(%RemoteControlCar{} = remote_car),
+    do: %RemoteControlCar{
+      remote_car
+      | distance_driven_in_meters: remote_car.distance_driven_in_meters + 20,
+        battery_percentage: remote_car.battery_percentage - 1
+    }
 end
