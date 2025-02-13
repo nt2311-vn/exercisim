@@ -6,14 +6,9 @@ defmodule Acronym do
   @spec abbreviate(String.t()) :: String.t()
   def abbreviate(string) do
     string
-    |> String.split("-")
-    |> Enum.join(" ")
-    |> String.split(" ")
-    |> Enum.map(fn word ->
-      String.replace(word, "_", "")
-    end)
-    |> Enum.reject(fn word -> word == "" end)
-    |> Enum.map(fn word -> String.first(word) |> String.upcase() end)
-    |> Enum.join("")
+    |> String.split([" ", "-", "_"], trim: true)
+    |> Enum.map(&String.first/1)
+    |> Enum.join()
+    |> String.upcase()
   end
 end
