@@ -1,6 +1,6 @@
 defmodule NeedForSpeed do
   # Add missing aliases and imports here.
-  import IO
+  import IO, only: [puts: 1]
   import IO.ANSI, except: [color: 1]
 
   alias NeedForSpeed.Race

@@ -2296,3 +2296,21 @@
 13:33:56.342 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 205µs
 
 13:34:00.976 id=50 [debug] handled request client -> server shutdown in 2ms
+
+13:36:01.213 [info] Loading 76 CA(s) from :otp store
+
+13:36:03.471 id=1 [debug] handled request client -> server initialize in 1638ms
+
+13:36:03.538 [debug] sent notification server -> client window/logMessage
+
+13:36:03.567 [debug] NextLS v0.23.3 has initialized!
+
+13:36:03.567 [debug] sent notification server -> client window/logMessage
+
+13:36:03.567 [debug] Log file located at d:/Work/Project/Exercism/elixir/need-for-speed/.elixir-tools/next-ls.log
+
+13:36:03.583 [debug] sent notification server -> client window/logMessage
+
+13:36:03.583 id=1800 [debug] sent request server -> client client/registerCapability
+
+13:36:03.583 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
