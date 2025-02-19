@@ -6,12 +6,12 @@ defmodule CaptainsLog do
   end
 
   def random_ship_registry_number() do
-    random_num = :random.uniform(9000) + 999
+    random_num = :rand.uniform(9000) + 999
     "NCC-#{random_num}"
   end
 
   def random_stardate() do
-    41000.0 + :random.uniform() * 1000.0
+    41000.0 + :rand.uniform() * 1000.0
   end
 
   def format_stardate(stardate) when is_float(stardate),
