@@ -26,16 +26,13 @@ defmodule RPG do
 
   defimpl Edible, for: LoafOfBread do
     def eat(_item, %Character{} = char) do
-      new_health = char.health + 5
-      {nil, %Character{char | health: new_health}}
+      {nil, %Character{char | health: char.health + 5}}
     end
   end
 
   defimpl Edible, for: ManaPotion do
     def eat(%ManaPotion{} = mana, %Character{} = char) do
-      current_mana = char.mana
-      mana_potion = mana.strength
-      {%EmptyBottle{}, %Character{char | mana: current_mana + mana_potion}}
+      {%EmptyBottle{}, %Character{char | mana: char.mana + mana.strength}}
     end
   end
 
