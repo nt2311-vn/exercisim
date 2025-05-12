@@ -3,3 +3,4 @@
 **/.bsp/
 /Powershell*
 ./erl_crash.dump
+~/AppData/Local/nvim-data/mason/share/jdtls
