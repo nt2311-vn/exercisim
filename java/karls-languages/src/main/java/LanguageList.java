@@ -37,6 +37,6 @@ public class LanguageList {
   }
 
   public boolean isExciting() {
-    return this.languages.contains("Java") || this.languages.contains("Kotlin");
+    return containsLanguage("Kotlin") || containsLanguage("Java");
   }
 }
