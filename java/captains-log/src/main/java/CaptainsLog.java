@@ -2,8 +2,7 @@ import java.util.Random;
 
 class CaptainsLog {
 
-  private static final char[] PLANET_CLASSES =
-      new char[] {'D', 'H', 'J', 'K', 'L', 'M', 'N', 'R', 'T', 'Y'};
+  private static final char[] PLANET_CLASSES = new char[] { 'D', 'H', 'J', 'K', 'L', 'M', 'N', 'R', 'T', 'Y' };
 
   private Random random;
 
@@ -18,9 +17,8 @@ class CaptainsLog {
   }
 
   String randomShipRegistryNumber() {
-    final int registryNumber = 1000 + this.random.nextInt(9000);
 
-    return "NCC-" + registryNumber;
+    return "NCC-" + (1000 + this.random.nextInt(9000));
   }
 
   double randomStardate() {
