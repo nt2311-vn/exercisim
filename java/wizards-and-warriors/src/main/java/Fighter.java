@@ -38,10 +38,10 @@ class Warrior extends Fighter {
 
 // TODO: define the Wizard class
 class Wizard extends Fighter {
-  private boolean preparedSpell = false;
+  private boolean _preparedSpell = false;
 
   void prepareSpell() {
-    this.preparedSpell = true;
+    this._preparedSpell = true;
   }
 
   @Override
@@ -51,7 +51,7 @@ class Wizard extends Fighter {
 
   @Override
   boolean isVulnerable() {
-    if (this.preparedSpell) {
+    if (this._preparedSpell) {
       return false;
     }
 
@@ -60,7 +60,7 @@ class Wizard extends Fighter {
 
   @Override
   int getDamagePoints(Fighter fighter) {
-    if (this.preparedSpell) {
+    if (this._preparedSpell) {
       return 12;
     }
 
