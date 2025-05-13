@@ -1,6 +1,6 @@
 class NeedForSpeed {
-  private int speed;
-  private int batteryDrain;
+  private final int speed;
+  private final int batteryDrain;
   private int battery;
   private int distance;
 
@@ -39,7 +39,7 @@ class RaceTrack {
   }
 
   public boolean canFinishRace(NeedForSpeed car) {
-    while (!car.batteryDrained()) {
+    while (car.distanceDriven() < this.distance && !car.batteryDrained()) {
       car.drive();
     }
 
