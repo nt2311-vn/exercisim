@@ -1,10 +1,10 @@
 import java.util.Map;
 
 public class DialingCodes {
+  private Map<Integer, String> map = new HashMap<>();
 
   public Map<Integer, String> getCodes() {
-    throw new UnsupportedOperationException(
-        "Delete this statement and write your own implementation.");
+    return map;
   }
 
   public void setDialingCode(Integer code, String country) {
