@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">6</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.083s</div>
+<div class="counter">0.058s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">50%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,94 +61,10 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
-</li>
-<li>
-<a href="#tab1">Tests</a>
+<a href="#tab0">Tests</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="testAddNewDialingCodeAddsNewCodes()"></a>
-<h3 class="failures">addNewDialingCode adds new codes</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at DialingCodes.addNewDialingCode(DialingCodes.java:21)
-	at DialingCodesTest.testAddNewDialingCodeAddsNewCodes(DialingCodesTest.java:80)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testAddNewDialingCodeLeavesExistingCode()"></a>
-<h3 class="failures">addNewDialingCode leaves already added code</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at DialingCodes.addNewDialingCode(DialingCodes.java:21)
-	at DialingCodesTest.testAddNewDialingCodeLeavesExistingCode(DialingCodesTest.java:92)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testAddNewDialingCodeLeavesExistingCountry()"></a>
-<h3 class="failures">addNewDialingCode leaves already added country</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at DialingCodes.addNewDialingCode(DialingCodes.java:21)
-	at DialingCodesTest.testAddNewDialingCodeLeavesExistingCountry(DialingCodesTest.java:105)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testFindDialingCode()"></a>
-<h3 class="failures">findDialingCode returns a country's dialing code</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at DialingCodes.addNewDialingCode(DialingCodes.java:21)
-	at DialingCodesTest.testFindDialingCode(DialingCodesTest.java:116)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testFindDialingCodeWithUnlistedCountry()"></a>
-<h3 class="failures">findDialingCode returns null for country not yet added</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at DialingCodes.addNewDialingCode(DialingCodes.java:21)
-	at DialingCodesTest.testFindDialingCodeWithUnlistedCountry(DialingCodesTest.java:126)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testUpdateDialingCode()"></a>
-<h3 class="failures">updateDialingCode updates the map</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at DialingCodes.addNewDialingCode(DialingCodes.java:21)
-	at DialingCodesTest.testUpdateDialingCode(DialingCodesTest.java:136)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -160,34 +76,34 @@
 </tr>
 </thead>
 <tr>
-<td class="failures">addNewDialingCode adds new codes</td>
-<td class="failures">testAddNewDialingCodeAddsNewCodes()</td>
-<td class="failures">0.002s</td>
-<td class="failures">failed</td>
+<td class="success">addNewDialingCode adds new codes</td>
+<td class="success">testAddNewDialingCodeAddsNewCodes()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">addNewDialingCode leaves already added code</td>
-<td class="failures">testAddNewDialingCodeLeavesExistingCode()</td>
-<td class="failures">0.021s</td>
-<td class="failures">failed</td>
+<td class="success">addNewDialingCode leaves already added code</td>
+<td class="success">testAddNewDialingCodeLeavesExistingCode()</td>
+<td class="success">0.047s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">addNewDialingCode leaves already added country</td>
-<td class="failures">testAddNewDialingCodeLeavesExistingCountry()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">addNewDialingCode leaves already added country</td>
+<td class="success">testAddNewDialingCodeLeavesExistingCountry()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">findDialingCode returns a country's dialing code</td>
-<td class="failures">testFindDialingCode()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">findDialingCode returns a country's dialing code</td>
+<td class="success">testFindDialingCode()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">findDialingCode returns null for country not yet added</td>
-<td class="failures">testFindDialingCodeWithUnlistedCountry()</td>
-<td class="failures">0.002s</td>
-<td class="failures">failed</td>
+<td class="success">findDialingCode returns null for country not yet added</td>
+<td class="success">testFindDialingCodeWithUnlistedCountry()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">getCodes initially returns an empty map</td>
@@ -198,7 +114,7 @@
 <tr>
 <td class="success">getCountry returns a code's country</td>
 <td class="success">testGetCountryForCode()</td>
-<td class="success">0.003s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -216,7 +132,7 @@
 <tr>
 <td class="success">setDialingCode updates existing entry</td>
 <td class="success">testSetDialingCodeUpdatesEntry()</td>
-<td class="success">0.048s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -226,10 +142,10 @@
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">updateDialingCode updates the map</td>
-<td class="failures">testUpdateDialingCode()</td>
-<td class="failures">0.002s</td>
-<td class="failures">failed</td>
+<td class="success">updateDialingCode updates the map</td>
+<td class="success">testUpdateDialingCode()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
@@ -241,7 +157,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.10</a> at 21 May 2025, 11:43:37</p>
+<a href="http://www.gradle.org">Gradle 8.10</a> at 21 May 2025, 11:59:18</p>
 </div>
 </div>
 </body>

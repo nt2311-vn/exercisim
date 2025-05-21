@@ -18,17 +18,28 @@ public class DialingCodes {
   }
 
   public void addNewDialingCode(Integer code, String country) {
-    throw new UnsupportedOperationException(
-        "Delete this statement and write your own implementation.");
+    if (!this.map.containsKey(code) && !this.map.containsValue(country)) {
+      this.map.put(code, country);
+    }
   }
 
   public Integer findDialingCode(String country) {
-    throw new UnsupportedOperationException(
-        "Delete this statement and write your own implementation.");
+
+    if (this.map.containsValue(country)) {
+      for (Integer code : this.map.keySet()) {
+        if (this.map.get(code) == country) {
+          return code;
+        }
+      }
+    }
+
+    return null;
   }
 
   public void updateCountryDialingCode(Integer code, String country) {
-    throw new UnsupportedOperationException(
-        "Delete this statement and write your own implementation.");
+    if (findDialingCode(country) != null) {
+      this.map.remove(findDialingCode(country));
+      this.map.put(code, country);
+    }
   }
 }
