@@ -1,11 +1,11 @@
-arguments=--init-script /home/nt2311-vn/.local/share/nvim/mason/share/jdtls/config/org.eclipse.osgi/58/0/.cp/gradle/init/init.gradle
+arguments=--init-script C\:\\Users\\NguyenToan\\.cache\\jdtls\\config\\org.eclipse.osgi\\58\\0\\.cp\\gradle\\init\\init.gradle
 auto.sync=false
 build.scans.enabled=false
 connection.gradle.distribution=GRADLE_DISTRIBUTION(VERSION(8.9))
 connection.project.dir=
 eclipse.preferences.version=1
-gradle.user.home=
-java.home=/home/nt2311-vn/.sdkman/candidates/java/17.0.14-amzn
+gradle.user.home=C\:/Users/NguyenToan/scoop/apps/scoop/new/bin/apps/gradle/current/.gradle
+java.home=C\:/Program Files/Java/jdk-23
 jvm.arguments=
 offline.mode=false
 override.workspace.settings=true
