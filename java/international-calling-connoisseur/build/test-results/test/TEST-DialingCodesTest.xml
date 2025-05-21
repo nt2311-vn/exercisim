@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DialingCodesTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-05-21T04:59:18" hostname="HPWIN" time="0.068">
+<testsuite name="DialingCodesTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-05-21T05:37:40" hostname="HPWIN" time="0.069">
   <properties/>
-  <testcase name="addNewDialingCode leaves already added code" classname="DialingCodesTest" time="0.047"/>
+  <testcase name="addNewDialingCode leaves already added code" classname="DialingCodesTest" time="0.05"/>
   <testcase name="setDialingCode updates existing entry" classname="DialingCodesTest" time="0.001"/>
-  <testcase name="getCountry returns a code's country" classname="DialingCodesTest" time="0.002"/>
+  <testcase name="getCountry returns a code's country" classname="DialingCodesTest" time="0.003"/>
   <testcase name="addNewDialingCode adds new codes" classname="DialingCodesTest" time="0.001"/>
-  <testcase name="setDialingCode with multiple entries" classname="DialingCodesTest" time="0.0"/>
-  <testcase name="findDialingCode returns null for country not yet added" classname="DialingCodesTest" time="0.001"/>
+  <testcase name="setDialingCode with multiple entries" classname="DialingCodesTest" time="0.001"/>
+  <testcase name="findDialingCode returns null for country not yet added" classname="DialingCodesTest" time="0.002"/>
   <testcase name="updateDialingCode updates the map" classname="DialingCodesTest" time="0.0"/>
-  <testcase name="getCodes initially returns an empty map" classname="DialingCodesTest" time="0.001"/>
+  <testcase name="getCodes initially returns an empty map" classname="DialingCodesTest" time="0.0"/>
   <testcase name="findDialingCode returns a country's dialing code" classname="DialingCodesTest" time="0.001"/>
   <testcase name="getCountry returns updated country" classname="DialingCodesTest" time="0.001"/>
-  <testcase name="addNewDialingCode leaves already added country" classname="DialingCodesTest" time="0.002"/>
+  <testcase name="addNewDialingCode leaves already added country" classname="DialingCodesTest" time="0.001"/>
   <testcase name="setDialingCode adds new entry" classname="DialingCodesTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

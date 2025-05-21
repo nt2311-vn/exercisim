@@ -25,11 +25,9 @@ public class DialingCodes {
 
   public Integer findDialingCode(String country) {
 
-    if (this.map.containsValue(country)) {
-      for (Integer code : this.map.keySet()) {
-        if (this.map.get(code) == country) {
-          return code;
-        }
+    for (Map.Entry<Integer, String> entry : this.map.entrySet()) {
+      if (entry.getValue().equals(country)) {
+        return entry.getKey();
       }
     }
 
@@ -37,8 +35,9 @@ public class DialingCodes {
   }
 
   public void updateCountryDialingCode(Integer code, String country) {
-    if (findDialingCode(country) != null) {
-      this.map.remove(findDialingCode(country));
+    Integer codeKey = findDialingCode(country);
+    if (codeKey != null) {
+      this.map.remove(codeKey);
       this.map.put(code, country);
     }
   }
