@@ -4,22 +4,36 @@ defmodule GottaSnatchEmAll do
 
   @spec new_collection(card()) :: collection()
   def new_collection(card) do
-    # Please implement new_collection/1
+    MapSet.new([card])
   end
 
   @spec add_card(card(), collection()) :: {boolean(), collection()}
   def add_card(card, collection) do
-    # Please implement add_card/2
+    case MapSet.member?(collection, card) do
+      true -> {true, collection}
+      false -> {false, MapSet.put(collection, card)}
+    end
   end
 
   @spec trade_card(card(), card(), collection()) :: {boolean(), collection()}
   def trade_card(your_card, their_card, collection) do
-    # Please implement trade_card/3
+    case MapSet.member?(collection, their_card) do
+      true -> {false, collection}
+      false -> {true, collection |> MapSet.delete(your_card) |> MapSet.put(their_card)}
+    end
   end
 
   @spec remove_duplicates([card()]) :: [card()]
   def remove_duplicates(cards) do
-    # Please implement remove_duplicates/1
+    cards
+    |> Enum.sort()
+    |> Enum.reduce([], fn card, uniqe_list ->
+      case Enum.member?(uniqe_list, card) do
+        true -> uniqe_list
+        false -> [card | uniqe_list]
+      end
+    end)
+    |> Enum.reverse()
   end
 
   @spec extra_cards(collection(), collection()) :: non_neg_integer()
