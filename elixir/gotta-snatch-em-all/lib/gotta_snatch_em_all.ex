@@ -17,10 +17,8 @@ defmodule GottaSnatchEmAll do
 
   @spec trade_card(card(), card(), collection()) :: {boolean(), collection()}
   def trade_card(your_card, their_card, collection) do
-    case MapSet.member?(collection, their_card) do
-      true -> {false, collection}
-      false -> {true, collection |> MapSet.delete(your_card) |> MapSet.put(their_card)}
-    end
+    {MapSet.member?(collection, your_card) and not MapSet.member?(collection, their_card),
+     MapSet.delete(collection, your_card) |> MapSet.put(their_card)}
   end
 
   @spec remove_duplicates([card()]) :: [card()]
@@ -38,21 +36,37 @@ defmodule GottaSnatchEmAll do
 
   @spec extra_cards(collection(), collection()) :: non_neg_integer()
   def extra_cards(your_collection, their_collection) do
-    # Please implement extra_cards/2
+    MapSet.difference(your_collection, their_collection)
+    |> MapSet.size()
   end
 
   @spec boring_cards([collection()]) :: [card()]
+  def boring_cards([]), do: []
+
   def boring_cards(collections) do
-    # Please implement boring_cards/1
+    [head | tail] = collections
+
+    tail
+    |> Enum.reduce(head, &MapSet.intersection/2)
+    |> MapSet.to_list()
+    |> Enum.sort()
   end
 
   @spec total_cards([collection()]) :: non_neg_integer()
+
   def total_cards(collections) do
-    # Please implement total_cards/1
+    collections
+    |> Enum.reduce(MapSet.new(), &MapSet.union/2)
+    |> Enum.count()
   end
 
   @spec split_shiny_cards(collection()) :: {[card()], [card()]}
   def split_shiny_cards(collection) do
-    # Please implement split_shiny_cards/1
+    {collection
+     |> MapSet.filter(fn card -> String.starts_with?(card, "Shiny") end)
+     |> Enum.sort(),
+     collection
+     |> MapSet.reject(fn card -> String.starts_with?(card, "Shiny") end)
+     |> Enum.sort()}
   end
 end
