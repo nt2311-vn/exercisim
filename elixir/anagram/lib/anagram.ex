@@ -4,5 +4,21 @@ defmodule Anagram do
   """
   @spec match(String.t(), [String.t()]) :: [String.t()]
   def match(base, candidates) do
+    candidates
+    |> Enum.filter(fn candidate ->
+      is_anagram?(String.downcase(candidate), String.downcase(base))
+    end)
+  end
+
+  defp is_anagram?(base, base), do: false
+
+  defp is_anagram?(base, candidate) do
+    sort_letters(base) == sort_letters(candidate)
+  end
+
+  defp sort_letters(string) do
+    string
+    |> String.split("")
+    |> Enum.sort()
   end
 end
