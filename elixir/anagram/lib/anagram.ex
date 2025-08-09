@@ -20,5 +20,6 @@ defmodule Anagram do
     string
     |> String.split("")
     |> Enum.sort()
+    |> Enum.join()
   end
 end
