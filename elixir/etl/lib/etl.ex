@@ -9,8 +9,12 @@ defmodule ETL do
   """
   @spec transform(map) :: map
   def transform(input) do
-    for {point, score_list} <- input, score_char <- score_list, into: %{} do
-      {String.downcase(score_char), point}
-    end
+    input
+    |> Enum.flat_map(fn {point, score_list} ->
+      Enum.map(score_list, fn score_char ->
+        {String.downcase(score_char), point}
+      end)
+    end)
+    |> Map.new()
   end
 end
