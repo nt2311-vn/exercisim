@@ -5,14 +5,11 @@ defmodule ArmstrongNumber do
 
   @spec valid?(integer) :: boolean
   def valid?(number) do
-    num_str = Integer.to_string(number)
-    str_len = String.length(num_str)
+    digits = Integer.digits(number)
+    str_len = Enum.count(digits)
 
     number ==
-      num_str
-      |> String.graphemes()
-      |> Enum.reduce(0, fn number, total ->
-        total + Integer.pow(String.to_integer(number), str_len)
-      end)
+      digits
+      |> Enum.reduce(0, fn digit, total -> total + Integer.pow(digit, str_len) end)
   end
 end
