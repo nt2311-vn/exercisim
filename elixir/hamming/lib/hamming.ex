@@ -15,17 +15,17 @@ defmodule Hamming do
     do: {:error, "strands must be of equal length"}
 
   def hamming_distance(base, compare) do
-    distance =
-      base
-      |> Enum.with_index()
-      |> Enum.reduce(0, fn {base_strand, idx}, acc ->
-        if base_strand == Enum.at(compare, idx) do
-          acc
-        else
-          acc + 1
-        end
-      end)
-
-    {:ok, distance}
+    {:ok,
+     Enum.zip(base, compare)
+     |> Enum.reduce(0, fn {
+                            base_strand,
+                            compare_strand
+                          },
+                          acc ->
+       cond do
+         base_strand == compare_strand -> acc
+         true -> acc + 1
+       end
+     end)}
   end
 end
