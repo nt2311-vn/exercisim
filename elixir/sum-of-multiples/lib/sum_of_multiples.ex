@@ -4,19 +4,18 @@ defmodule SumOfMultiples do
   """
   @spec to(non_neg_integer, [non_neg_integer]) :: non_neg_integer
   def to(limit, factors) do
-    new_list = []
-
     factors
-    |> Enum.reduce(new_list, fn factor, list ->
+    |> Enum.reduce(MapSet.new(), fn factor, set ->
       cond do
         factor >= limit or factor == 0 ->
-          list
+          set
 
         true ->
-          list ++ for n <- factor..(limit - 1), rem(n, factor) == 0, do: n
+          factor..(limit - 1)
+          |> Stream.filter(&(rem(&1, factor) == 0))
+          |> Enum.into(set)
       end
     end)
-    |> Enum.uniq()
     |> Enum.sum()
   end
 end
