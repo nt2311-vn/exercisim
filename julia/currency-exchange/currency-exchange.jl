@@ -19,7 +19,11 @@ function get_leftover_of_bills(amount, denomination)
 end
 
 function exchangeable_value(budget, exchange_rate, spread, denomination)
+    #=
     money_collectable = round(budget / (exchange_rate * (1 + spread / 100) * denomination), RoundDown)
 
     return money_collectable * denomination
+  =#
+    exchange_value = budget / (exchange_rate * (1 + spread / 100))
+    return round(exchange_value / denomination, RoundDown) * denomination
 end
