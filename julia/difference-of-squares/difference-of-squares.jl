@@ -19,10 +19,10 @@ function difference(n)
     return square_of_sum(n) - sum_of_squares(n)
 end
 
-"Function to sum up to `n` positive integer"
-sum_up_to(n::Int)::Int =
-if n <= 1
-    return n
+"Recursion tail call to sum up to `n` positive integer"
+sum_up_to(n::Int, acc::Int = 0)::Int =
+if n == 0
+    return acc
 else
-    return n + sum_up_to(n - 1)
+    return sum_up_to(n - 1, acc + n)
 end
