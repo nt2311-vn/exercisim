@@ -1,6 +1,6 @@
 "Square the sum of the first `n` positive integers"
 function square_of_sum(n::Int)::Int
-    return (n * (n + 1) / 2)^2
+    return sum_up_to(n)^2
 end
 
 "Sum the squares of the first `n` positive integers"
@@ -17,4 +17,12 @@ end
 "Subtract the sum of squares from square of the sum of the first `n` positive ints"
 function difference(n)
     return square_of_sum(n) - sum_of_squares(n)
+end
+
+"Function to sum up to `n` positive integer"
+sum_up_to(n::Int)::Int =
+if n <= 1
+    return n
+else
+    return n + sum_up_to(n - 1)
 end
