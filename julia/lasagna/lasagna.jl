@@ -10,4 +10,6 @@ function remaining_time(time_in_oven::Int64)::Int64
 end
 
 # Define the `total_working_time(layers, time_in_oven)` function.
-total_working_time(layers::Int64, time_in_oven::Int64)::Int64 = preparation_time(layers) + time_in_oven
+function total_working_time(layers::Int64, time_in_oven::Int64)::Int64
+    return preparation_time(layers) + time_in_oven
+end
