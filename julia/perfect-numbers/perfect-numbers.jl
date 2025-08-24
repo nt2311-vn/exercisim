@@ -2,22 +2,25 @@ isperfect(number::Int)::Bool =
 if number <= 0
     throw(DomainError(number, "Number must be positive"))
 else
-    return number == sum_of_divisors(number)
+    return number == sum(factors(number))
 end
 
 isabundant(number::Int)::Bool =
 if number <= 0
     throw(DomainError(number, "Number must be positive"))
 else
-    return number < sum_of_divisors(number)
+    return number < sum(factors(number))
 end
 
 isdeficient(number::Int)::Bool =
 if number <= 0
     throw(DomainError(number, "Number must be positive"))
 else
-    return number > sum_of_divisors(number)
+    return number > sum(factors(number))
 end
+
+factors(n::Int)::Array{Integer} =
+    [i for i in 1:(n / 2) if n % i == 0]
 
 function sum_of_divisors(number::Int)::Int
     if number == 1
