@@ -46,6 +46,6 @@ function remove_item_at_bottom!(stack::Vector{Int64})::Vector{Int64}
     return stack
 end
 
-function check_size_of_stack(stack::AbstractVector, stack_size::Int64)::Bool
+function check_size_of_stack(stack::Vector{}, stack_size::Int64)::Bool
     return length(stack) == stack_size
 end
