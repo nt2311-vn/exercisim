@@ -1,8 +1,22 @@
 collatz_steps(n::Int)::Int =
 if n < 1
     throw(DomainError(n))
+elseif n == 1
+    return 0
 else
-    return count_steps(n)
+    steps = 0
+    number = n
+    while number != 1
+        if number % 2 == 0
+            number = number / 2
+            steps = steps + 1
+        else
+            number = 3 * number + 1
+            steps = steps + 1
+        end
+    end
+
+    return steps
 end
 
 
