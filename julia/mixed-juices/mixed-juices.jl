@@ -45,9 +45,20 @@ function limes_to_cut(needed, limes)
 end
 
 function order_times(orders)
-
+    return [time_to_mix_juice(order) for order in orders]
 end
 
 function remaining_orders(time_left, orders)
+    remain_time = time_left
+    remain_orders = orders
 
+    while remain_time > 0
+        order = popfirst!(remain_orders)
+        if length(remain_orders) == 0
+            return []
+        end
+        remain_time -= time_to_mix_juice(order)
+    end
+
+    return remain_orders
 end
