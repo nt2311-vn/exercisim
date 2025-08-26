@@ -52,11 +52,8 @@ function remaining_orders(time_left, orders)
     remain_time = time_left
     remain_orders = orders
 
-    while remain_time > 0
+    while remain_time > 0 && !isempty(remain_orders)
         order = popfirst!(remain_orders)
-        if length(remain_orders) == 0
-            return []
-        end
         remain_time -= time_to_mix_juice(order)
     end
 
