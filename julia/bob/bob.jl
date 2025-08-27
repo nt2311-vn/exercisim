@@ -3,7 +3,7 @@ function is_question(msg::String)::Bool
 end
 
 function is_yell(msg::String)::Bool
-    return msg == uppercase(msg) && lowercase(msg) != msg
+    return msg == uppercase(msg) && any(isuppercase, msg)
 end
 
 function bob(stimulus)
