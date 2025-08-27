@@ -7,8 +7,6 @@ function log_level(msg)
 end
 
 function reformat(msg)
-    log = log_level(msg)
-    sys_message = message(msg)
-
-    return "$sys_message ($log)"
+    log, sys_message = split(msg, ":")
+    return "$(strip(sys_message)) $(lowercase(replace(log, "[" => "(", "]" => ")")))"
 end
