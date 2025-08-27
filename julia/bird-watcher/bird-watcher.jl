@@ -20,5 +20,10 @@ function busy_days(birds_per_day)
 end
 
 function average_per_day(week1, week2)
-    return [(a + b) / 2 for (a, b) in zip(week1, week2)]
+    # return [(a + b) / 2 for (a, b) in zip(week1, week2)]
+    avg_vector = []
+    for i in eachindex(week1)
+        push!(avg_vector, (week1[i] + week2[i]) / 2)
+    end
+    return avg_vector
 end
