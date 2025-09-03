@@ -3,7 +3,7 @@ function get_coordinate(line)
 end
 
 function convert_coordinate(coordinate)
-    return Tuple(coordinate)
+    return (coordinate[1], coordinate[2])
 end
 
 function compare_records(azara_record, rui_record)
