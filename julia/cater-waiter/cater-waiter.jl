@@ -35,12 +35,7 @@ function tag_special_ingredients(dish::Tuple)::Tuple{String, Set{String}}
 end
 
 function compile_ingredients(dishes::Vector{Set{String}})::Set{String}
-    master_list::Set{String} = Set()
-    for ingredients::Set{String} in dishes
-        master_list = union(master_list, ingredients)
-    end
-
-    return master_list
+    return reduce(union, dishes, init = Set{String}())
 end
 
 function separate_appetizers(dishes::Vector{String}, appetizers::Vector{String})::Vector{String}
