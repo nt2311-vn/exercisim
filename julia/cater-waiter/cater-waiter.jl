@@ -3,10 +3,7 @@ function clean_ingredients(dish_name::String, dish_ingredients::Vector)::Tuple{S
 end
 
 function check_drinks(drink_name::String, drink_ingredients::Vector)::String
-    if any(ingredient -> ingredient in ALCOHOLS, drink_ingredients)
-        return "$drink_name Cocktail"
-    end
-    return "$drink_name Mocktail"
+    return any(in(ALCOHOLS), drink_ingredients) ? "$drink_name Cocktail" : "$drink_name Mocktail"
 end
 
 function categorize_dish(dish_name::String, dish_ingredients::Set)::String
