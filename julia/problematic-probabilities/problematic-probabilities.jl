@@ -12,11 +12,8 @@ function checkmean(successes::Vector{Int}, trials::Vector{Int})::Union{Bool, Num
     rationalize_mean = sum(rationalize(successes, trials)) / length(successes)
     probabilities_mean = sum(probabilities(successes, trials)) / length(successes)
 
-    if Float64(rationalize_mean) == probabilities_mean
-        return true
-    end
+    return Float64(rationalize_mean) == probabilities_mean ? true : rationalize_mean
 
-    return rationalize_mean
 end
 
 function checkprob(successes::Vector{Int}, trials::Vector{Int})::Union{Bool, Rational{Int}}
