@@ -9,5 +9,5 @@ function rotate(shift_number::Int, ch::Char)::Char
 end
 
 function rotate(shift_number::Int, message::String)::String
-    return String([rotate(shift_number, ch) for ch in message])
+    return message |> collect |> xs -> map(ch -> rotate(shift_number, ch), xs) |> String
 end
