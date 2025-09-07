@@ -15,5 +15,5 @@ function transform(ch::Char)::String
 end
 
 function clean(str::String)::String
-    return join(transform.(collect(str)))
+    return join(transform(ch) for ch in str)
 end
