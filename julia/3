@@ -1,0 +1,17 @@
+function rationalize(successes::Vector{Int}, trials::Vector{Int})::Vector{Number}
+    return [research_pair[1] // research_pair[2] for research_pair in zip(successes, trials)]
+
+end
+
+function probabilities(successes::Vector{Int}, trials::Vector{Int})::Vector{Float64}
+    return [research_pair[1] / research_pair[2] for research_pair in zip(successes, trials)]
+
+end
+
+function checkmean(successes, trials)
+
+end
+
+function checkprob(successes, trials)
+
+end
