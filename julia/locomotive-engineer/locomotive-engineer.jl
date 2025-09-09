@@ -10,10 +10,21 @@ function fix_vector_of_wagons(each_wagons_id::Vector{Int}, missing_wagons::Vecto
     return [head_wagon, missing_wagons..., tail_wagon..., first_wagon, second_wagon]
 end
 
-function add_missing_stops(route, stops...)
+function add_missing_stops(route::Dict, stops::Pair{String, String}...)::Dict{String, Any}
+    stop_dict = Dict{String, Any}(route)
+    stops_in_order::Vector{String} = [last(stop) for stop in stops]
+
+    stop_dict["stops"] = stops_in_order
+    return stop_dict
+
 
 end
 
-function extend_route_information(route; more_route_information...)
+function extend_route_information(route::Dict{String, String}; more_route_information...)::Dict{Any, String}
+    route_info = Dict{Any, String}(route)
+    for (key, value) in more_route_information
+        route_info[key] = value
+    end
 
+    return route_info
 end
