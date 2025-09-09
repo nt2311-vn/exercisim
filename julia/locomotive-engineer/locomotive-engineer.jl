@@ -22,7 +22,7 @@ end
 
 function extend_route_information(route::Dict{String, String}; more_route_information...)::Dict{Any, String}
     route_info = Dict{Any, String}(route)
-    for (key, value) in more_route_information
+    for (key::Symbol, value::String) in more_route_information
         route_info[key] = value
     end
 
