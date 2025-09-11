@@ -19,19 +19,23 @@ function random_stardate_v2()
 end
 
 function pick_starships(starships::Vector{String}, number_needed::Int)::Vector{String}
-    total_starship = length(starships)
-    random_starships = Vector{String}()
-    pick = number_needed
+    # total_starship = length(starships)
+    # random_starships = Vector{String}()
+    # pick = number_needed
+    #
+    # while pick >= 1
+    #     index = rand(1:total_starship)
+    #     while starships[index] in random_starships
+    #         index = rand(1:total_starship)
+    #     end
+    #     push!(random_starships, starships[index])
+    #     pick -= 1
+    # end
+    # return random_starships
 
-    while pick >= 1
-        index = rand(1:total_starship)
-
-        while starships[index] in random_starships
-            index = rand(1:total_starship)
-        end
-
-        push!(random_starships, starships[index])
-        pick -= 1
+    if number_needed < 0 || number_needed > length(starships)
+        error("number_needed must bue non-negative and not exceed the number of starships")
     end
-    return random_starships
+
+    return shuffle(starships)[1:number_needed]
 end
