@@ -4,3 +4,6 @@
 /Powershell*
 ./erl_crash.dump
 ~/AppData/Local/nvim-data/mason/share/jdtls
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
