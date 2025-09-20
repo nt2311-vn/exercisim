@@ -6,4 +6,9 @@ def square(number: int) -> int:
 
 
 def total() -> int:
-    return sum(square(n) for n in range(1, 65))
+    sum = 0
+
+    for n in range(1, 65):
+        sum += square(n)
+
+    return sum
