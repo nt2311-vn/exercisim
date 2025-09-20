@@ -50,12 +50,12 @@ def reactor_efficiency(
 
     if efficiency >= 80.0:
         return "green"
-    elif efficiency >= 60.0:
+    if efficiency >= 60.0:
         return "orange"
-    elif efficiency >= 30.0:
+    if efficiency >= 30.0:
         return "red"
-    else:
-        return "black"
+
+    return "black"
 
 
 def fail_safe(
@@ -78,7 +78,7 @@ def fail_safe(
 
     if abs(heat_production - threshold) < 0.1 * threshold:
         return "NORMAL"
-    elif heat_production < threshold * 0.9:
+    if heat_production < threshold * 0.9:
         return "LOW"
-    else:
-        return "DANGER"
+
+    return "DANGER"
