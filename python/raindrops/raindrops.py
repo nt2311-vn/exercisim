@@ -1,14 +1,23 @@
 def convert(number: int) -> str:
-    sound = ""
+    if number % 3 == 0 and number % 5 != 0 and number % 7 != 0:
+        return "Pling"
 
-    if number % 3 == 0:
-        sound += "Pling"
-    if number % 5 == 0:
-        sound += "Plang"
-    if number % 7 == 0:
-        sound += "Plong"
+    if number % 5 == 0 and number % 3 != 0 and number % 7 != 0:
+        return "Plang"
 
-    if len(sound) == 0:
-        return f"{number}"
+    if number % 7 == 0 and number % 3 != 0 and number % 5 != 0:
+        return "Plong"
 
-    return sound
+    if number % 15 == 0 and number % 7 != 0:
+        return "PlingPlang"
+
+    if number % 21 == 0 and number % 5 != 0:
+        return "PlingPlong"
+
+    if number % 35 == 0 and number % 3 != 0:
+        return "PlangPlong"
+
+    if number % 105 == 0:
+        return "PlingPlangPlong"
+
+    return f"{number}"
