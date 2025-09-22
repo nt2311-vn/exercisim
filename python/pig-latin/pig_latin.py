@@ -27,11 +27,9 @@ def latin_rule2(text: str) -> str:
     while i < len(text):
         char = text[i]
 
-        # vowel rule
         if char in VOWELS or (char == "y" and i > 0):
             break
 
-        # treat "qu" as a unit
         if char == "q" and i + 1 < len(text) and text[i + 1] == "u":
             consonant_prefix += "qu"
             i += 2
