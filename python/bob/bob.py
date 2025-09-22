@@ -10,7 +10,7 @@ def is_silence(msg: str) -> bool:
     return len(msg.strip()) == 0
 
 
-def response(hey_bob):
+def response(hey_bob: str) -> str:
     if is_question(hey_bob) and is_yell(hey_bob):
         return "Calm down, I know what I'm doing!"
 
