@@ -27,9 +27,8 @@ def make_word_groups(vocab_words: list) -> str:
     """
 
     prefix = vocab_words[0]
-    words = vocab_words[1:]
 
-    return prefix + " :: " + " :: ".join(prefix + word for word in words)
+    return (" :: " + prefix).join(vocab_words)
 
 
 def remove_suffix_ness(word: str) -> str:
