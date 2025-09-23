@@ -1,44 +1,22 @@
-VOWELS = ["a", "e", "i", "o", "u"]
+def _rotate(word: str) -> str:
+    return word[1:] + word[0]
+
+
+def _pig_latin(word: str) -> str:
+    if word[:2] == "xr":
+        return "xrayay"
+
+    if word[0] == "y" and word[1] in "aeiou":
+        word = _rotate(word)
+
+    while word[0] not in "aeiouy":
+        word = _rotate(word)
+
+    if word[-1] == "q" and word[0] == "u":
+        word = _rotate(word)
+
+    return word + "ay"
 
 
 def translate(text: str) -> str:
-    return " ".join(translate_words(word) for word in text.split())
-
-
-def translate_words(word: str) -> str:
-    for rule in (latin_rule1, latin_rule2):
-        result = rule(word)
-        if result != word:
-            return result
-
-    return word
-
-
-def latin_rule1(text: str) -> str:
-    if text[0] in VOWELS or text.startswith(("xr", "yt")):
-        return f"{text}ay"
-
-    return text
-
-
-def latin_rule2(text: str) -> str:
-    consonant_prefix = ""
-    i = 0
-    while i < len(text):
-        char = text[i]
-
-        if char in VOWELS or (char == "y" and i > 0):
-            break
-
-        if char == "q" and i + 1 < len(text) and text[i + 1] == "u":
-            consonant_prefix += "qu"
-            i += 2
-            continue
-
-        consonant_prefix += char
-        i += 1
-
-    if not consonant_prefix:
-        return text
-    rest = text[len(consonant_prefix) :]
-    return f"{rest}{consonant_prefix}ay"
+    return " ".join(_pig_latin(word) for word in text.split())
