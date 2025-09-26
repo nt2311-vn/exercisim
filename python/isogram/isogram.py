@@ -1,16 +1,15 @@
 def is_isogram(string: str) -> bool:
-    list_str: list[str] = []
+    acc_str = ""
+    not_word_count = 0
 
     for char in string.lower():
         if char == " " or char == "-":
+            not_word_count += 1
             continue
 
-        if len(list_str) == 0:
-            list_str.append(char)
+        if char in acc_str:
+            continue
         else:
-            if char in list_str:
-                return False
-            else:
-                list_str.append(char)
+            acc_str += char
 
-    return True
+    return len(acc_str) + not_word_count == len(string)
