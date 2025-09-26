@@ -2,4 +2,8 @@ ALPHABETS = "abcdefghijklmnopqrstuvwxyz"
 
 
 def is_pangram(sentence: str) -> bool:
-    return all(char in sentence.lower() for char in ALPHABETS)
+    for char in ALPHABETS:
+        if char not in sentence.lower():
+            return False
+
+    return True
