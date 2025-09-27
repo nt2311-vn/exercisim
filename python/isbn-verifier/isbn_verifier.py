@@ -2,27 +2,24 @@ def is_valid(isbn: str) -> bool:
     if len(isbn) < 9:
         return False
 
-    mutiply_test = range(1, 11)[::-1]
-    isbn_numstr: list[int] = []
+    cleaned_format = isbn.replace(" ", "").replace("-", "")
+    isbn_num: list[int] = []
 
-    for char in isbn:
-        if char == " " or char == "-":
-            continue
-
+    for char in cleaned_format:
         if char == "X":
-            if isbn[-1] != "X":
+            if cleaned_format[-1] != "X":
                 return False
-            isbn_numstr.append(10)
+            isbn_num.append(10)
             continue
 
         if not char.isdigit():
             return False
 
-        isbn_numstr.append(int(char))
+        isbn_num.append(int(char))
 
-    if len(isbn_numstr) != len(mutiply_test):
+    if len(isbn_num) != len(range(1, 11)):
         return False
 
-    pairs = zip(isbn_numstr, mutiply_test)
+    check_pairs = zip(isbn_num, range(1, 11)[::-1])
 
-    return sum(int(pair[0]) * pair[1] for pair in pairs) % 11 == 0
+    return sum(pair[0] * pair[1] for pair in check_pairs) % 11 == 0
