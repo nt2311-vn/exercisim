@@ -2,7 +2,12 @@ ALPHABETS = "abcdefghijklmnopqrstuvwxyz"
 
 
 def rotate(text: str, key: int) -> str:
-    return " ".join(_convert(word, key) for word in text.split())
+    result = ""
+    for word in text.split():
+        result += _convert(word, key)
+        result += " "
+
+    return result[:-1]
 
 
 def _convert(word: str, key: int) -> str:
