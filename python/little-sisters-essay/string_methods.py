@@ -17,7 +17,7 @@ def check_sentence_ending(sentence: str) -> bool:
     :param sentence: str - a sentence to check.
     :return: bool - return True if punctuated correctly with period, False otherwise.
     """
-    return sentence.endswith(".")
+    return sentence.strip().endswith(".")
 
 
 def clean_up_spacing(sentence: str) -> str:
