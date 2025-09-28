@@ -1,17 +1,17 @@
 def score(x: int, y: int) -> int:
-    pos = position(x, y)
+    parameter_square = x * x + y * y
 
-    if pos <= 1.0:
+    if parameter_square <= 1:
         return 10
 
-    if pos <= 5.0:
+    if parameter_square <= 25:
         return 5
 
-    if pos <= 10.0:
+    if parameter_square <= 100:
         return 1
 
     return 0
 
 
-def position(x: int, y: int) -> float:
-    return (x * x + y * y) ** 0.5
+# def position(x: int, y: int) -> float:
+#     return (x * x + y * y) ** 0.5
