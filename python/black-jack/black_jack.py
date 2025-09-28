@@ -17,14 +17,12 @@ def value_of_card(card: str) -> int:
     """
 
     match card:
-        case "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10":
-            return int(card)
         case "J" | "Q" | "K":
             return 10
         case "A":
             return 1
         case _:
-            return 0
+            return int(card)
 
 
 def higher_card(card_one: str, card_two: str) -> tuple[str, str] | str:
@@ -60,9 +58,7 @@ def value_of_ace(card_one: str, card_two: str) -> int:
     3.  '2' - '10' = numerical value.
     """
 
-    value_card_one, value_card_two = value_of_card(card_one), value_of_card(card_two)
-
-    if value_card_two + value_card_one > 10:
+    if _sum_original(card_one, card_two) > 10:
         return 1
     if card_two == "A" or card_one == "A":
         return 1
@@ -81,8 +77,7 @@ def is_blackjack(card_one, card_two):
     """
 
     if card_two == "A" or card_one == "A":
-        value_car_one, value_card_two = value_of_card(card_one), value_of_card(card_two)
-        if value_card_two + value_car_one == 11:
+        if _sum_original(card_one, card_two) == 11:
             return True
 
         return False
@@ -113,9 +108,11 @@ def can_double_down(card_one: str, card_two: str) -> bool:
     :return: bool - can the hand can be doubled down? (i.e. totals 9, 10 or 11 points).
     """
 
-    value_card_one, value_card_two = value_of_card(card_one), value_of_card(card_two)
-
-    if 9 <= value_card_one + value_card_two <= 11:
+    if 9 <= _sum_original(card_one, card_two) <= 11:
         return True
 
     return False
+
+
+def _sum_original(card_one: str, card_two: str) -> int:
+    return value_of_card(card_one) + value_of_card(card_two)
