@@ -1,39 +1,23 @@
+ALL_COLORS = [
+    "black",
+    "brown",
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "violet",
+    "grey",
+    "white",
+]
+
+
 def color_code(color: str) -> int:
-    match color:
-        case "black":
-            return 0
-        case "brown":
-            return 1
-        case "red":
-            return 2
-        case "orange":
-            return 3
-        case "yellow":
-            return 4
-        case "green":
-            return 5
-        case "blue":
-            return 6
-        case "violet":
-            return 7
-        case "grey":
-            return 8
-        case "white":
-            return 9
-        case _:
-            raise ValueError("unpextor color value")
+    if color not in ALL_COLORS:
+        raise ValueError("unexpected color value")
+
+    return ALL_COLORS.index(color)
 
 
 def colors() -> list[str]:
-    return [
-        "black",
-        "brown",
-        "red",
-        "orange",
-        "yellow",
-        "green",
-        "blue",
-        "violet",
-        "grey",
-        "white",
-    ]
+    return ALL_COLORS
