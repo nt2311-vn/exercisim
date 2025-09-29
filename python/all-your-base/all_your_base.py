@@ -8,15 +8,17 @@ def rebase(input_base: int, digits: list[int], output_base: int) -> list[int]:
     if any(digit < 0 or digit >= input_base for digit in digits):
         raise ValueError("all digits must satisfy 0 <= d < input base")
 
+    base_number = _base_to_number(input_base, digits)
+    return _number_to_base(base_number, output_base)
+
+
+def _base_to_number(base: int, digits: list[int]) -> int:
     multiply_range = range(0, len(digits))[::-1]
-    base_number = sum(
-        pair[1] * (input_base ** pair[0]) for pair in zip(multiply_range, digits)
-    )
 
-    return numberToBase(base_number, output_base)
+    return sum(digit * (base**pw) for pw, digit in zip(multiply_range, digits))
 
 
-def numberToBase(number: int, base: int) -> list[int]:
+def _number_to_base(number: int, base: int) -> list[int]:
     if number == 0:
         return [0]
 
