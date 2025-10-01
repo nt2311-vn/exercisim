@@ -12,14 +12,12 @@ ALL_COLORS = [
 ]
 
 
+def color_code(color: str) -> int:
+    if color not in ALL_COLORS:
+        raise ValueError("unexpected color value")
+
+    return ALL_COLORS.index(color)
+
+
 def value(colors: list[str]) -> int:
-    number_value = ""
-    for color in colors[:2]:
-        if color not in ALL_COLORS:
-            raise ValueError("unexpected error of color")
-
-        pos = ALL_COLORS.index(color)
-
-        number_value += str(pos)
-
-    return int(number_value)
+    return int("".join([str(color_code(color)) for color in colors[:2]]))
