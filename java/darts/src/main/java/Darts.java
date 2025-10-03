@@ -1,16 +1,16 @@
 class Darts {
   int score(double xOfDart, double yOfDart) {
-    double radius = Math.sqrt(xOfDart * xOfDart + yOfDart * yOfDart);
+    double squrRadis = xOfDart * xOfDart + yOfDart * yOfDart;
 
-    if (radius <= 1.0) {
+    if (squrRadis <= 1.0) {
       return 10;
     }
 
-    if (radius <= 5.0) {
+    if (squrRadis <= 25.0) {
       return 5;
     }
 
-    if (radius <= 10) {
+    if (squrRadis <= 100.0) {
       return 1;
     }
 
