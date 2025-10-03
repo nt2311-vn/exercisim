@@ -1,6 +1,6 @@
 class ReverseString {
 
   String reverse(String inputString) {
-    return inputString.reverse()
+    return new StringBuilder(inputString).reverse().toString();
   }
 }
