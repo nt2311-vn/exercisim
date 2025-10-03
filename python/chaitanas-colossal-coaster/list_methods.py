@@ -75,8 +75,10 @@ def remove_the_last_person(queue: list[str]) -> str:
     :param queue: list - names in the queue.
     :return: str - name that has been removed from the end of the queue.
     """
+    last_person = queue[-1]
+    queue.remove(last_person)
 
-    return queue.pop(-1)
+    return last_person
 
 
 def sorted_names(queue: list[str]) -> list[str]:
