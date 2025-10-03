@@ -1,11 +1,18 @@
 class ReverseString {
 
   String reverse(String inputString) {
-    String reversed = "";
 
-    for (int i = 0; i < inputString.length(); i++) {
-      reversed = inputString.charAt(i) + reversed;
+    int i = 0;
+    int j = inputString.length() - 1;
+    char[] charArr = inputString.toCharArray();
+    while (i <= j) {
+      char temp = charArr[i];
+      charArr[i] = charArr[j];
+      charArr[j] = temp;
+      i++;
+      j--;
     }
-    return reversed;
+
+    return new String(charArr);
   }
 }
