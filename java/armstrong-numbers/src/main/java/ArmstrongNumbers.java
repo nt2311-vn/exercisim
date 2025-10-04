@@ -4,8 +4,8 @@ class ArmstrongNumbers {
     String[] numStr = Integer.toString(numberToCheck).split("");
     int sumEachDigit = 0;
 
-    for (int i = numStr.length - 1; i >= 0; i--) {
-      int digit = Integer.parseInt(numStr[i]);
+    for (String digitStr : numStr) {
+      int digit = Integer.parseInt(digitStr);
       sumEachDigit += (int) Math.pow(digit, numStr.length);
     }
 
