@@ -1,7 +1,5 @@
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 
 class GottaSnatchEmAll {
@@ -49,25 +47,14 @@ class GottaSnatchEmAll {
   }
 
   static Set<String> commonCards(List<Set<String>> collections) {
-    HashMap<String, Integer> common = new HashMap<>();
+    Set<String> common = new HashSet<>();
 
-    for (Set<String> collection : collections) {
-      for (String card : collection) {
-        int currentAppear = common.getOrDefault(card, 0);
-        common.put(card, currentAppear + 1);
-      }
+    if (!collections.isEmpty()) {
+      common.addAll(collections.get(0));
+      collections.forEach(common::retainAll);
     }
 
-    Set<String> result = new HashSet<>();
-    int requiredCount = collections.size();
-
-    for (Map.Entry<String, Integer> entry : common.entrySet()) {
-      if (entry.getValue() == requiredCount) {
-        result.add(entry.getKey());
-      }
-    }
-
-    return result;
+    return common;
   }
 
   static Set<String> allCards(List<Set<String>> collections) {
