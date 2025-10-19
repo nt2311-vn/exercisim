@@ -1,43 +1,48 @@
-class IllegalOperationException extends RuntimeException {
-  public IllegalOperationException(String message) {
-    super(message);
-  }
-
-  public IllegalOperationException(String message, Throwable cause) {
-    super(message, cause);
-  }
-}
+import java.util.Objects;
 
 class CalculatorConundrum {
-
   public String calculate(int operand1, int operand2, String operation) {
-    if (operation == null) throw new IllegalArgumentException("Operation cannot be null");
-
-    if (operation.isEmpty()) throw new IllegalArgumentException("Operation cannot be empty");
-
-    if (!operation.equals("+") && !operation.equals("*") && !operation.equals("/"))
-      throw new IllegalOperationException("Operation '" + operation + "' does not exist");
-
-    int result;
-
-    try {
-      switch (operation) {
-        case "+":
-          result = operand1 + operand2;
-          break;
-        case "*":
-          result = operand1 * operand2;
-          break;
-        case "/":
-          result = operand1 / operand2; // can throw ArithmeticException
-          break;
-        default:
-          throw new IllegalOperationException("Unknown operation");
-      }
-    } catch (ArithmeticException e) {
-      throw new IllegalOperationException("Division by zero is not allowed", e);
+    this.validateOperation(operation);
+    int result = 0;
+    switch (operation) {
+      case "*":
+        result = multiplication(operand1, operand2);
+        break;
+      case "/":
+        result = divide(operand1, operand2);
+        break;
+      case "+":
+        result = addition(operand1, operand2);
+        break;
+      default:
+        throw new IllegalOperationException(
+            String.format("Operation '%s' does not exist", operation));
     }
+    return String.format("%s %s %s = %s", operand1, operation, operand2, result);
+  }
 
-    return operand1 + " " + operation + " " + operand2 + " = " + result;
+  private void validateOperation(String operation) {
+    if (Objects.isNull(operation)) {
+      throw new IllegalArgumentException("Operation cannot be null");
+    }
+    if (operation.isEmpty()) {
+      throw new IllegalArgumentException("Operation cannot be empty");
+    }
+  }
+
+  private int multiplication(int operand1, int operand2) {
+    return operand1 * operand2;
+  }
+
+  private int addition(int operand1, int operand2) {
+    return operand1 + operand2;
+  }
+
+  private int divide(int operand1, int operand2) {
+    try {
+      return operand1 / operand2;
+    } catch (ArithmeticException ex) {
+      throw new IllegalOperationException("Division by zero is not allowed", ex);
+    }
   }
 }
