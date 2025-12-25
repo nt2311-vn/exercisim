@@ -1,21 +1,11 @@
 pub fn reply(message: &str) -> &str {
-    if is_silence(message) {
-        return "Fine. Be that way!";
+    match message.trim() {
+        m if is_silence(m) => "Fine. Be that way!",
+        m if is_question(m) && is_uppercase(m) => "Calm down, I know what I'm doing!",
+        m if is_question(m) => "Sure.",
+        m if is_uppercase(m) => "Whoa, chill out!",
+        _ => "Whatever.",
     }
-
-    if is_uppercase(message) && is_question(message) {
-        return "Calm down, I know what I'm doing!";
-    }
-
-    if is_uppercase(message) {
-        return "Whoa, chill out!";
-    }
-
-    if is_question(message) {
-        return "Sure.";
-    }
-
-    "Whatever."
 }
 
 fn is_uppercase(message: &str) -> bool {
@@ -23,9 +13,9 @@ fn is_uppercase(message: &str) -> bool {
 }
 
 fn is_question(message: &str) -> bool {
-    message.trim().ends_with("?")
+    message.ends_with("?")
 }
 
 fn is_silence(message: &str) -> bool {
-    message.trim() == ""
+    message.is_empty()
 }
