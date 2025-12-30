@@ -7,10 +7,5 @@ pub fn square(s: u32) -> u64 {
 }
 
 pub fn total() -> u64 {
-    let mut sum: u64 = 0;
-    for n in 0..=63 {
-        sum += 2u64.pow(n);
-    }
-
-    sum
+    (1..=64).into_iter().map(|exp| square(exp)).sum()
 }
