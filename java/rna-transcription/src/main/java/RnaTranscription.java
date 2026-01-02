@@ -1,5 +1,3 @@
-import java.util.stream.Collectors;
-
 class RnaTranscription {
 
   Character mapDNA(Character dna) {
@@ -22,11 +20,32 @@ class RnaTranscription {
   }
 
   String transcribe(String dnaStrand) {
-    return dnaStrand
-        .chars()
-        .mapToObj(c -> (char) c)
-        .map(c -> mapDNA(c))
-        .map(String::valueOf)
-        .collect(Collectors.joining(""));
+    String rna = "";
+
+    for (int i = 0; i < dnaStrand.length(); i++) {
+
+      switch (dnaStrand.charAt(i)) {
+        case 'G':
+          rna += 'C';
+          break;
+
+        case 'C':
+          rna += 'G';
+          break;
+
+        case 'T':
+          rna += 'A';
+          break;
+
+        case 'A':
+          rna += 'U';
+          break;
+
+        default:
+          break;
+      }
+    }
+
+    return rna;
   }
 }
