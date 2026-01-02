@@ -1,26 +1,22 @@
-import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 class HighScores {
 
-  private List<Integer> highScores = new ArrayList<>();
-  private List<Integer> originalScores;
+  private List<Integer> highScores;
 
   public HighScores(List<Integer> highScores) {
-    for (int i = 0; i < highScores.size(); i++) {
-      this.highScores.add(highScores.get(i));
-    }
-
-    this.originalScores = highScores;
+    this.highScores = highScores;
   }
 
   List<Integer> scores() {
-    return this.originalScores;
+    return this.highScores;
   }
 
   Integer latest() {
-    return this.highScores.getLast();
+    return this.highScores.get(this.highScores.size() - 1);
   }
 
   Integer personalBest() {
@@ -28,13 +24,9 @@ class HighScores {
   }
 
   List<Integer> personalTopThree() {
-    Collections.sort(this.highScores, Collections.reverseOrder());
-
-    if (this.highScores.size() <= 3) {
-      return this.highScores;
-    }
-
-    this.highScores = this.highScores.subList(0, 3);
-    return this.highScores;
+    return this.highScores.stream()
+        .sorted(Comparator.reverseOrder())
+        .limit(3)
+        .collect(Collectors.toList());
   }
 }
