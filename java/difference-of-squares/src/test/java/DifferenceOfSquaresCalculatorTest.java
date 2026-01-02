@@ -1,0 +1,77 @@
+import static org.assertj.core.api.Assertions.assertThat;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+public class DifferenceOfSquaresCalculatorTest {
+
+  private DifferenceOfSquaresCalculator calculator;
+
+  @BeforeEach
+  public void setUp() {
+    calculator = new DifferenceOfSquaresCalculator();
+  }
+
+  @Test
+  public void testSquareOfSumUpToOne() {
+    int expected = 1;
+    int actual = calculator.computeSquareOfSumTo(1);
+    assertThat(actual).isEqualTo(expected);
+  }
+
+  @Test
+  public void testSquareOfSumUpToFive() {
+    int expected = 225;
+    int actual = calculator.computeSquareOfSumTo(5);
+    assertThat(actual).isEqualTo(expected);
+  }
+
+  @Test
+  public void testSquareOfSumUpToHundred() {
+    int expected = 25502500;
+    int actual = calculator.computeSquareOfSumTo(100);
+    assertThat(actual).isEqualTo(expected);
+  }
+
+  @Test
+  public void testSumOfSquaresUpToOne() {
+    int expected = 1;
+    int actual = calculator.computeSumOfSquaresTo(1);
+    assertThat(actual).isEqualTo(expected);
+  }
+
+  @Test
+  public void testSumOfSquaresUpToFive() {
+    int expected = 55;
+    int actual = calculator.computeSumOfSquaresTo(5);
+    assertThat(actual).isEqualTo(expected);
+  }
+
+  @Test
+  public void testSumOfSquaresUpToHundred() {
+    int expected = 338350;
+    int actual = calculator.computeSumOfSquaresTo(100);
+    assertThat(actual).isEqualTo(expected);
+  }
+
+  @Test
+  public void testDifferenceOfSquaresUpToOne() {
+    int expected = 0;
+    int actual = calculator.computeDifferenceOfSquares(1);
+    assertThat(actual).isEqualTo(expected);
+  }
+
+  @Test
+  public void testDifferenceOfSquaresUpToFive() {
+    int expected = 170;
+    int actual = calculator.computeDifferenceOfSquares(5);
+    assertThat(actual).isEqualTo(expected);
+  }
+
+  @Test
+  public void testDifferenceOfSquaresUpToHundred() {
+    int expected = 25164150;
+    int actual = calculator.computeDifferenceOfSquares(100);
+    assertThat(actual).isEqualTo(expected);
+  }
+}
