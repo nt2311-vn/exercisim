@@ -11,21 +11,16 @@ class ResistorColorTrio {
   }
 
   String labelConvert(Long resitorValue) {
-
-    long gigaRemains = resitorValue / 1_000_000_000;
-    long megaRemains = resitorValue / 1_000_000;
-    long kiloRemains = resitorValue / 1_000;
-
-    if (gigaRemains >= 1) {
-      return gigaRemains + " gigaohms";
+    if (resitorValue >= 1_000_000_000) {
+      return (resitorValue / 1_000_000_000) + " gigaohms";
     }
 
-    if (megaRemains >= 1) {
-      return megaRemains + " megaohms";
+    if (resitorValue >= 1_000_000) {
+      return (resitorValue / 1_000_000) + " megaohms";
     }
 
-    if (kiloRemains >= 1) {
-      return kiloRemains + " kiloohms";
+    if (resitorValue >= 1_000) {
+      return (resitorValue / 1_000) + " kiloohms";
     }
 
     return resitorValue + " ohms";
