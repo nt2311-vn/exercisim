@@ -1,17 +1,19 @@
-import java.util.Arrays;
-import java.util.stream.Collectors;
-
 class Acronym {
-  private String phrase;
+  private final String acronym;
 
   Acronym(String phrase) {
-    this.phrase = phrase;
+    phrase = phrase.replaceAll("[^A-Za-z\\s-]", "");
+    String[] words = phrase.split("[\\s-]+");
+    StringBuilder result = new StringBuilder();
+    for (String word : words) {
+      if (!word.isEmpty()) {
+        result.append(Character.toUpperCase(word.charAt(0)));
+      }
+    }
+    this.acronym = result.toString();
   }
 
   String get() {
-    return Arrays.asList(this.phrase.replaceAll("_", "").replaceAll("-", " ").split(" ")).stream()
-        .filter(word -> word != " " && word != "")
-        .map(word -> Character.toString(word.charAt(0)).toUpperCase())
-        .collect(Collectors.joining(""));
+    return acronym;
   }
 }
