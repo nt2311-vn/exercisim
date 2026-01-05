@@ -1,15 +1,7 @@
-pub fn nth(n: u32) -> u32 {
-    let mut cache: Vec<u32> = vec![];
+fn is_prime(n: u32) -> bool {
+    !(2..(n as f32).sqrt() as u32 + 1).any(|x| n % x == 0)
+}
 
-    (2..)
-        .filter(|candidate| {
-            if !cache.iter().any(|prime| candidate % prime == 0) {
-                cache.push(*candidate);
-                true
-            } else {
-                false
-            }
-        })
-        .nth(n as usize)
-        .unwrap()
+pub fn nth(n: u32) -> u32 {
+    (2..).filter(|x| is_prime(*x)).nth(n as usize).unwrap()
 }
