@@ -1,26 +1,15 @@
-pub fn factors(n: u64) -> Vec<u64> {
-    let mut result: Vec<u64> = Vec::new();
-    let mut copy_n = n;
+pub fn factors(mut n: u64) -> Vec<u64> {
+    let mut divisors = Vec::new();
+    let mut f = 2;
 
-    while copy_n % 2 == 0 {
-        result.push(2);
-        copy_n /= 2;
-    }
-
-    let mut candidate = 3;
-
-    while candidate * candidate <= copy_n {
-        while copy_n % candidate == 0 {
-            result.push(candidate);
-            copy_n /= candidate;
+    while n > 1 {
+        while n % f == 0 {
+            divisors.push(f);
+            n /= f;
         }
 
-        candidate += 2;
+        f += 1;
     }
 
-    if copy_n > 1 {
-        result.push(copy_n);
-    }
-
-    result
+    divisors
 }
