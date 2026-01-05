@@ -1,6 +1,6 @@
 use std::{fmt::Display, ops::Rem};
 
-#[derive(PartialEq, PartialOrd, Debug)]
+#[derive(PartialEq, Debug)]
 pub struct Clock {
     hours: i32,
     minutes: i32,
